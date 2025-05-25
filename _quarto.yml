@@ -7,8 +7,8 @@ execute:
   freeze: auto
 
 website:
-  title: "Kododian Labs"
-  repo-url: https://github.com/kododian/kododian.github.io
+  title: "Kodonian Labs"
+  repo-url: https://github.com/kodonian/kodonian.github.io
   repo-actions: [source]
   navbar:
     background: primary
