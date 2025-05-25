@@ -2,7 +2,7 @@
 title: "Kododian Labs"
 ---
 
-This is a Quarto website.
+Site under construction.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

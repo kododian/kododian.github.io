@@ -1,8 +1,8 @@
 {
-  "hash": "f491814983243f30685651c58fe6106a",
+  "hash": "d92f7451db1afc0158a8eb7aeec33070",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Kododian Labs\"\n---\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Kododian Labs\"\n---\n\n\n\n\nSite under construction.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
