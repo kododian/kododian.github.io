@@ -15,6 +15,7 @@ class FlexibleGridPlot:
     self.n_rows = config.get("n_rows", 12)
     self.n_cols = config.get("n_cols", 12)
     self.cells_offset = config.get("cells_offset", [0, 0])
+    self.cells_display = config.get("cells_display", ["tl", "tr", "bl", "br"])
     self.groups = {g["family"]: g["color"] for g in config.get("groups", [])}
     self.cells = config.get("cells", [])
     self.merged_cells = config.get("merged_cells", [])
@@ -127,10 +128,10 @@ class FlexibleGridPlot:
         
         # Subcell texts
         texts = [
-          self.format_texts(str(tl)),
-          self.format_texts(str(tr)),
-          self.format_formulas(bl),
-          self.format_texts(str(br))
+          self.format_texts(str(tl)) if "tl" in self.cells_display else "",
+          self.format_texts(str(tr)) if "tr" in self.cells_display else "",
+          self.format_formulas(bl) if "bl" in self.cells_display else "",
+          self.format_texts(str(br)) if "br" in self.cells_display else ""
         ]
         sizes = self.sizes
         self.draw_subtexts(ax, row, col, texts, sizes)

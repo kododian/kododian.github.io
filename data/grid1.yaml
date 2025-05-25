@@ -5,6 +5,7 @@ groups:
 - {family: "F", color: "yellow"}
 - {family: "S", color: "lightblue"}
 cells_offset: [2, 2]
+cells_display: ["tl", "tr", "br"]
 cells:
 - {index:  1, id: "GG", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
 - {index:  2, id: "GA", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
