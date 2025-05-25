@@ -1,0 +1,27 @@
+title: "Codon Matrix Grid"
+n_row: 12
+n_cols: 12
+cell_size: 1
+groups: 
+- {group: 1, color: "yellow"}
+- {group: 2, color: "lightblue"}
+cells:
+- {index: 1, text: "GG", value: 75, name: "Gly", formula: "H9C5NO4", group: 1}
+- {index: 2, text: "GA", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+- {index: 3, text: "AG", value: 279, name: "Arg", formula: "H9C5NO4", group: 2}
+- {index: 4, text: "AA", value: 280, name: "Lys", formula: "H9C5NO4", group: 2}
+- {index: 5, text: "GC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 6, text: "GT", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 7, text: "AC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 8, text: "AT", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+- {index: 9, text: "CG", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 10, text: "CA", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+- {index: 11, text: "TG", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+- {index: 12, text: "TA", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+- {index: 13, text: "CC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 14, text: "CT", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 15, text: "TC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
+- {index: 16, text: "TT", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+merged_cells:
+  # inner main family
+  - {row: 1, col: 1, rowspan: 2, colspan: 2, text: "GC", color: "yellow"}

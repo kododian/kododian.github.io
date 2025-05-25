@@ -1,0 +1,212 @@
+---
+title: "Page 1"
+format: html
+editor: visual
+html:
+  include-in-header: includes/head.html
+bibliography: refs/references.bib
+nocite: |
+  @*
+filters:
+  - interactive-sql
+databases:
+  - name: gc
+    path: "./data/genetic_code.db"
+    editable: false
+---
+
+## Quarto
+
+```{python}
+#| label: fig-amino-acids1
+#| fig-cap: "Matrix"
+#| fig-cap-location: margin
+#| echo: false 
+#| results: asis
+
+from lib_gridplots import FlexibleGridPlot
+
+FlexibleGridPlot("data/grid1.yaml").draw()
+
+```
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{python}
+#| label: tbl-amino-acids
+#| tbl-cap: 'Amino acids with nucleon counts in backbone (block), side chain, and total, ordered by their weight.'
+from lib_utils import db_table
+
+db_table("select name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t from amino_acids order by nuclsum_t", ['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])
+```
+
+```{python}
+#| echo: false
+#| label: tbl-genetic-codes-codons
+#| tbl-cap: 'Codon assignments for [known variants of the Genetic Code](https://en.wikipedia.org/wiki/List_of_genetic_codes). GC1 = Standard Code.'
+
+from lib_utils import db_table
+db_table("select * from genetic_codes_codons")
+```
+
+
+::: {.callout-note collapse="true"}
+## Expand for a list of Genetic Code variants
+
+[Source](https://en.wikipedia.org/wiki/List_of_genetic_codes)
+
+```{python}
+#| echo: false
+#| label: tbl-genetic-codes-list
+
+from lib_utils import db_table
+db_table("select id, name from genetic_codes", ["Id", "Species"])
+```
+:::
+
+
+```{python}
+#| echo: false
+#| label: tbl-genetic-codes-codon12-symbol1
+#| tbl-cap: 'Codon assignments for the Standard Code, contracted by the first two nucleotide bases.'
+
+from lib_utils import db_table
+db_table("select codon12, group_concat(symbol1, ', '), nuclsum_b, nuclsum_s, nuclsum_t from v_codons2_symbol1_gc1_dst group by codon12", ["Codon", "Amino Acids", "Nucleon BL", "Nucleon SC", "Nucleon Total"])
+```
+
+
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| include: false
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2 + 1
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{python}
+#| label: fig-margin
+#| fig-cap: "MPG vs horsepower, colored"
+#| column: margin
+import numpy as np
+
+x = np.pi/2
+print(x)
+```
+
+|   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 0 | ⌘ | ☺ | ☻ | [♥]{.bg-yellow-300} | [♦]{.bg-yellow-300} | ♣ | ♠ | • | ◘ | ○ | ◙ | ♂ | ♀ | ♪ | ♫ | ☼ |
+| 1 | ► | ◄ | ↕ | !! | ¶ | § | ▬ | ↨ | ↑ | ↓ | → | ← | ∟ | ↔ | ▲ | ▼ |
+| 2 |  | ! | " | \# | \$ | \% | & | ' | ( | ) | \* | \+ | , | \- | . | / |
+| 3 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | : | ; | \< | = | \> | ? |
+| 4 | \@ | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
+| 5 | P | Q | R | S | T | U | V | W | X | Y | Z | \[ | \\ | \] | \^ | \_ |
+| 6 | \` | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o |
+| 7 | p | q | r | s | t | u | v | w | x | y | z | { | \| | } | \~ | ⌂ |
+| 8 | Ç | ü | é | â | ä | à | å | ç | ê | ë | è | ï | î | ì | Ä | Å |
+| 9 | É | æ | Æ | ô | ö | ò | û | ù | ÿ | Ö | Ü | ¢ | £ | ¥ | ₧ | ƒ |
+| A | á | í | ó | ú | ñ | Ñ | ª | º | ¿ | ⌐ | ¬ | ½ | ¼ | ¡ | « | » |
+| B | ░ | ▒ | ▓ | │ | ┤ | ╡ | ╢ | ╖ | ╕ | ╣ | ║ | ╗ | ╝ | ╜ | ╛ | ┐ |
+| C | └ | ┴ | ┬ | ├ | ─ | ┼ | ╞ | ╟ | ╚ | ╔ | ╩ | ╦ | ╠ | ═ | ╬ | ╧ |
+| D | ╨ | ╤ | ╥ | ╙ | ╘ | ╒ | ╓ | ╫ | ╪ | ┘ | ┌ | █ | ▄ | ▌ | ▐ | ▀ |
+| E | α | ß | Γ | π | Σ | σ | µ | τ | Φ | Θ | Ω | δ | ∞ | φ | ε | ∩ |
+| F | ≡ | ± | ≥ | ≤ | ⌠ | ⌡ | ÷ | ≈ | ° | ∙ | ⋅ | √ | ⁿ | ² | ■ | ↗ |
+
+: Demonstration of pipe table syntax
+
+hello there
+
+```{mermaid}
+%%| label: fig-flowchart
+%%| fig-cap: "A flowchart."
+%%| fig-column: screen-right
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+```{dot}
+//| label: fig-fullwidth
+//| fig-cap: "A full width figure."
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```
+
+```{mermaid}
+quadrantChart
+    title Reach and engagement of campaigns
+    x-axis Low Reach --> High Reach
+    y-axis Low Engagement --> High Engagement
+    quadrant-1 We should expand
+    quadrant-2 Need to promote
+    quadrant-3 Re-evaluate
+    quadrant-4 May be improved
+    Campaign A: [0.3, 0.6]
+    Campaign B: [0.45, 0.23]
+    Campaign C: [0.57, 0.69]
+    Campaign D: [0.78, 0.34]
+    Campaign E: [0.40, 0.34]
+    Campaign F: [0.35, 0.78]
+```
+
+$$
+\begin{bmatrix} 
+G & A \\ 
+C & T \\ 
+\end{bmatrix}
+\otimes
+\begin{bmatrix} 
+G & A \\ 
+C & T \\ 
+\end{bmatrix}
+=
+\begin{bmatrix} 
+GG & GA & AG & AA \\ 
+GC & GT & AC & AT \\ 
+CG & CA & TG & TA \\ 
+CC & CT & TC & TT 
+\end{bmatrix}
+$$
+
+[This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
+
+As outlined by @crickDirectedPanspermia1973, pp. 16-18, we find this below. Also by referencing this, we end up there[^1], as outlined in @fig-flowchart. Also refer to @fig-amino-acids for more details.
+
+[^1]: Here is the footnote.
+
+### References
+
+::: {#refs}
+:::
+
+### Supplementary Material
+
+-   list 1
+-   list 2

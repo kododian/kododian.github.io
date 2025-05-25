@@ -1,0 +1,42 @@
+project:
+  type: website
+  resources:
+    - data  # Include data folder in built site
+    
+execute:
+  freeze: auto
+
+website:
+  title: "Kododian Labs"
+  repo-url: https://github.com/kudodian/kudodian.github.io
+  repo-actions: [source]
+  navbar:
+    background: primary
+    page-navigation: true
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - about.qmd
+      - page1.qmd
+  sidebar:
+    style: "docked"
+    contents: auto
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    grid:
+      margin-width: 350px
+      
+reference-location: margin
+citation-location: margin
+fig-cap-location: margin
+tbl-cap-location: margin
+
+editor: visual
+
