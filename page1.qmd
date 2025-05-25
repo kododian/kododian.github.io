@@ -18,7 +18,7 @@ databases:
 ## Quarto
 
 ```{python}
-#| label: fig-amino-acids1
+#| label: fig-amino-acids
 #| fig-cap: "Matrix"
 #| fig-cap-location: margin
 #| echo: false 
