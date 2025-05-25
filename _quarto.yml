@@ -8,7 +8,7 @@ execute:
 
 website:
   title: "Kododian Labs"
-  repo-url: https://github.com/kudodian/kudodian.github.io
+  repo-url: https://github.com/kododian/kododian.github.io
   repo-actions: [source]
   navbar:
     background: primary
