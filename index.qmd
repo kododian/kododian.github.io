@@ -1,9 +1,9 @@
 ---
-title: "Kodonian Labs"
+title: "The Kodonian Project"
 ---
 
-Site under construction.
+::: {.callout-note}
+## Purpose & Goal
 
-```{r}
-1 + 1
-```
+The Kodonian Project seeks to demonstrate that the Universal Genetic Code contains an embedded signal—an intentional, structured message—suggesting a deeper informational or even extraterrestrial origin behind the blueprint of life on Earth.
+:::

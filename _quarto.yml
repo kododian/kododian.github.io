@@ -2,36 +2,44 @@ project:
   type: website
   resources:
     - data  # Include data folder in built site
+
+date: last-modified
+
+author: 
+  - name: Christoph Kovacs
+    email: christoph.kovacs@alumni.ethz.ch
+    degrees:
+      - MSc ETH
+    url: https://www.linkedin.com/in/chkovacs/
     
 execute:
   freeze: auto
 
 website:
-  title: "Kodonian Labs"
+  title: "The Kodonian Project"
   repo-url: https://github.com/kodonian/kodonian.github.io
   repo-actions: [source]
-  navbar:
-    background: primary
-    page-navigation: true
-    search: true
-    left:
-      - text: Home
-        href: index.qmd
-      - about.qmd
-      - page1.qmd
+  bread-crumbs: true
+  
   sidebar:
     style: "docked"
     contents: auto
+  page-footer:
+    center: 
+      - text: "Published: May 25, 2025 – Updated: {{< meta date >}}."
+      
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
     grid:
       margin-width: 350px
+      
+bibliography: refs/references.bib
+link-citations: true
       
 reference-location: margin
 citation-location: margin

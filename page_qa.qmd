@@ -1,0 +1,42 @@
+---
+title: "Q & A"
+format: html
+title-block-style: default
+callout-appearance: minimal
+abstract: |
+  Find here answers to common questions around the topic of our Genetic Code Signal research.
+---
+
+
+::: {.callout-note collapse="true"}
+## Are we serious?
+
+Yes
+:::
+
+::: {.callout-note collapse="true"}
+## Who is the main contributor of this project?
+
+{{< lipsum 1 >}}
+:::
+
+::: {.callout-note collapse="true"}
+## Has research in this area been conducted elsewhere?
+
+{{< lipsum 1 >}}
+:::
+
+::: {.callout-note collapse="true"}
+## What are the strongest arguments *for* a signal in the Genetic Code?
+{{< lipsum 1 >}}
+:::
+
+::: {.callout-note collapse="true"}
+## What are the strongest arguments *against* a signal in the Genetic Code?
+{{< lipsum 1 >}}
+:::
+
+::: {.callout-note collapse="true"}
+## Evolution did it, didn't it?
+{{< lipsum 1 >}}
+:::

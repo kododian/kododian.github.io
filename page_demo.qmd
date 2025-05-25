@@ -1,18 +1,11 @@
 ---
-title: "Page 1"
+title: "Demo Site"
 format: html
 editor: visual
 html:
   include-in-header: includes/head.html
-bibliography: refs/references.bib
 nocite: |
   @*
-filters:
-  - interactive-sql
-databases:
-  - name: gc
-    path: "./data/genetic_code.db"
-    editable: false
 ---
 
 ## Quarto
@@ -24,9 +17,11 @@ databases:
 #| echo: false 
 #| results: asis
 
+from lib_utils import db_df
 from lib_gridplots import FlexibleGridPlot
 
-FlexibleGridPlot("data/grid1.yaml").draw()
+df = db_df("select * from v_codons2_gc1_dst")
+FlexibleGridPlot("data/grid1.yaml", df).draw()
 
 ```
 
@@ -49,7 +44,6 @@ from lib_utils import db_table
 db_table("select * from genetic_codes_codons")
 ```
 
-
 ::: {.callout-note collapse="true"}
 ## Expand for a list of Genetic Code variants
 
@@ -64,7 +58,6 @@ db_table("select id, name from genetic_codes", ["Id", "Species"])
 ```
 :::
 
-
 ```{python}
 #| echo: false
 #| label: tbl-genetic-codes-codon12-symbol1
@@ -73,8 +66,6 @@ db_table("select id, name from genetic_codes", ["Id", "Species"])
 from lib_utils import db_table
 db_table("select codon12, group_concat(symbol1, ', '), nuclsum_b, nuclsum_s, nuclsum_t from v_codons2_symbol1_gc1_dst group by codon12", ["Codon", "Amino Acids", "Nucleon BL", "Nucleon SC", "Nucleon Total"])
 ```
-
-
 
 ## Running Code
 
