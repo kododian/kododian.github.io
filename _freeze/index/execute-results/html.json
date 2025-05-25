@@ -1,8 +1,8 @@
 {
-  "hash": "673c01e66deeafe2ab7574c8433911ee",
+  "hash": "4135ce551490529de5a984bbb00a8e0c",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Kodonian Labs\"\n---\n\n\n\n\nSite under construction.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Kodonian Labs\"\n---\n\n\n\n\n\nSite under construction.\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [
       "index_files"
     ],
