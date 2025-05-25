@@ -4,8 +4,6 @@ title: "Kodonian Labs"
 
 Site under construction.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
 ```{r}
 1 + 1
 ```
