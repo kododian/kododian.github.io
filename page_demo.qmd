@@ -1,12 +1,27 @@
 ---
 title: "Demo Site"
-format: html
-editor: visual
-html:
-  include-in-header: includes/head.html
+format: 
+  html: 
+    include-in-header: 
+     - includes/head.html
+    math:
+        mathjax: true
+        include: 
+          - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+        options:
+          tex:
+            packages: ["base", "mhchem"]
+#  pdf:
+#    pdf-engine: lualatex  # or pdflatex or xelatex
 nocite: |
   @*
 ---
+
+```{python}
+#| echo: false
+from lib_utils import db_df, db_table
+from lib_gridplots import FlexibleGridPlot
+```
 
 ## Quarto
 
@@ -17,12 +32,8 @@ nocite: |
 #| echo: false 
 #| results: asis
 
-from lib_utils import db_df
-from lib_gridplots import FlexibleGridPlot
-
 df = db_df("select * from v_codons2_gc1_dst")
 FlexibleGridPlot("data/grid1.yaml", df).draw()
-
 ```
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
@@ -30,7 +41,6 @@ Quarto enables you to weave together content and executable code into a finished
 ```{python}
 #| label: tbl-amino-acids
 #| tbl-cap: 'Amino acids with nucleon counts in backbone (block), side chain, and total, ordered by their weight.'
-from lib_utils import db_table
 
 db_table("select name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t from amino_acids order by nuclsum_t", ['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])
 ```
@@ -40,7 +50,6 @@ db_table("select name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t from am
 #| label: tbl-genetic-codes-codons
 #| tbl-cap: 'Codon assignments for [known variants of the Genetic Code](https://en.wikipedia.org/wiki/List_of_genetic_codes). GC1 = Standard Code.'
 
-from lib_utils import db_table
 db_table("select * from genetic_codes_codons")
 ```
 
@@ -53,7 +62,6 @@ db_table("select * from genetic_codes_codons")
 #| echo: false
 #| label: tbl-genetic-codes-list
 
-from lib_utils import db_table
 db_table("select id, name from genetic_codes", ["Id", "Species"])
 ```
 :::
@@ -185,6 +193,35 @@ CG & CA & TG & TA \\
 CC & CT & TC & TT 
 \end{bmatrix}
 $$
+
+## Chemical Formula with ce package
+
+$$
+\ce{CH4 + 2 O2 -> CO2 + 2 H2O}
+$$
+
+## 2D Molecule
+```{python}
+#| echo: false
+#| label: fig-trp
+#| fig-cap: "List of proteinogenic amino acids, ordered by nucleon sum."
+from rdkit import Chem
+from rdkit.Chem import Draw
+from IPython.display import HTML
+
+df = db_df("SELECT name, smiles FROM amino_acids WHERE smiles IS NOT NULL ORDER BY nuclsum_t")
+
+# Convert to RDKit molecules
+mols = [Chem.MolFromSmiles(row["smiles"]) for _, row in df.iterrows()]
+names = [row["name"] for _, row in df.iterrows()]
+
+# Draw grid with labels, SVG output
+svg = Draw.MolsToGridImage(mols, molsPerRow=4, subImgSize=(200,200), legends=names, useSVG=True)
+
+# Display as raw HTML (Quarto-compatible)
+HTML(svg)
+```
+
 
 [This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
 
