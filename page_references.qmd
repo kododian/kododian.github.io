@@ -1,0 +1,16 @@
+---
+title: "References"
+format: html
+citeproc: true
+nocite: |
+  @*
+link-citations: true
+citation-location: document
+---
+
+### References
+
+::: {#refs}
+:::
+
+### Supplementary Material

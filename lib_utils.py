@@ -9,13 +9,11 @@ def db_fetch(statement):
   con.close()
   return df
 
-def db_table(statement, headers=None, return_df=False, **kwargs):
+def db_df(statement, **kwargs):
+  return db_fetch(statement)
+
+def db_table(statement, headers=None, **kwargs):
   df = db_fetch(statement)
-  
   # Determine headers: use provided headers, or default to df.columns
   header_row = headers if headers is not None else df.columns
-  
-  if return_df:
-    return df
-  else:
-    return Markdown(tabulate(df.values, headers=header_row, showindex=False, **kwargs))
+  return Markdown(tabulate(df.values, headers=header_row, showindex=False, **kwargs))

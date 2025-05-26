@@ -1,27 +1,34 @@
 title: "Codon Matrix Grid"
 n_row: 12
 n_cols: 12
-cell_size: 1
 groups: 
-- {group: 1, color: "yellow"}
-- {group: 2, color: "lightblue"}
+- {family: "F", color: "yellow"}
+- {family: "S", color: "lightblue"}
+cells_offset: [2, 2]
+cells_display: ["tl", "tr", "br"]
 cells:
-- {index: 1, text: "GG", value: 75, name: "Gly", formula: "H9C5NO4", group: 1}
-- {index: 2, text: "GA", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
-- {index: 3, text: "AG", value: 279, name: "Arg", formula: "H9C5NO4", group: 2}
-- {index: 4, text: "AA", value: 280, name: "Lys", formula: "H9C5NO4", group: 2}
-- {index: 5, text: "GC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 6, text: "GT", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 7, text: "AC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 8, text: "AT", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
-- {index: 9, text: "CG", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 10, text: "CA", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
-- {index: 11, text: "TG", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
-- {index: 12, text: "TA", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
-- {index: 13, text: "CC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 14, text: "CT", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 15, text: "TC", value: 280, name: "Glu", formula: "H9C5NO4", group: 1}
-- {index: 16, text: "TT", value: 280, name: "Glu", formula: "H9C5NO4", group: 2}
+- {index:  1, id: "GG", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  2, id: "GA", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  3, id: "AG", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  4, id: "AA", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  5, id: "GC", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family", valueadd: 0}
+- {index:  6, id: "GT", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  7, id: "AC", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  8, id: "AT", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index:  9, id: "CG", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 10, id: "CA", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 11, id: "TG", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 12, id: "TA", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 13, id: "CC", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 14, id: "CT", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 15, id: "TC", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
+- {index: 16, id: "TT", tl: "id", tr: "symbols3", bl: "formulas_t", br: "nuclsum_t", value: "nuclsum_t", group: "family"}
 merged_cells:
   # inner main family
-  - {row: 1, col: 1, rowspan: 2, colspan: 2, text: "GC", color: "yellow"}
+  - {row: 1, col: 2, rowspan: 1, colspan: 8, main: "Codon Totals"}
+  - {row: 2, col: 10, rowspan: 4, colspan: 2, value: "nuclsum_t", main: "", sub: " x 37", mainids: ["GG", "GA", "AG", "AA", "GC", "GT", "AC", "AT"], subdivider: 37, valueadd: 0}
+  - {row: 6, col: 10, rowspan: 4, colspan: 2, value: "nuclsum_t", main: "", sub: " x 37", mainids: ["CG", "CA", "TG", "TA", "CC", "CT", "TC", "TT"], subdivider: 37}
+  - {row: 10, col: 2, rowspan: 2, colspan: 6, value: "nuclsum_t", main: "", sub: " x 37", mainids: ["GG", "GC", "GT", "AC", "CG", "CC", "CT", "TC"], subdivider: 37, color: "yellow", valueadd: 0}
+  - {row: 10, col: 8, rowspan: 2, colspan: 2, value: "nuclsum_t", main: "", sub: " x 37", mainids: ["GA", "AG", "AA", "AT", "CA", "TG", "TA", "TT"], subdivider: 37, color: "lightblue"}
+  - {row: 10, col: 10, rowspan: 2, colspan: 2, value: "nuclsum_t", main: "", sub: " x 37", mainids: ["GG", "GA", "AG", "AA", "GC", "GT", "AC", "AT", "CG", "CA", "TG", "TA", "CC", "CT", "TC", "TT"], subdivider: 37, valueadd: 0}
+sizes: [24, 12, 11, 20]
