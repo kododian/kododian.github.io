@@ -7,10 +7,6 @@ date: last-modified
 
 author: 
   - name: Christoph Kovacs
-    email: christoph.kovacs@alumni.ethz.ch
-    degrees:
-      - MSc ETH
-    url: https://www.linkedin.com/in/chkovacs/
     
 execute:
   freeze: auto
