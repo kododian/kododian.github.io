@@ -1,0 +1,12 @@
+---
+title: "Test Site"
+---
+
+This is an equation: `$underbrace(e^(i pi), -1) + 1 = 0$`{=typst}
+
+$$
+\begin{equation} 
+S (\omega)=\frac{\alpha g^2}{\omega^5} \,
+e ^{{\{}{\frac{\omega U_\omega 19.5}{g}}{\}}^{-4}]}
+\end{equation}
+$$

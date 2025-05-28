@@ -4,15 +4,16 @@ format:
   html: 
     include-in-header: 
      - includes/head.html
+    fig-format: svg
     math:
-        mathjax: true
-        include: 
-          - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-        options:
-          tex:
-            packages: ["base", "mhchem"]
-#  pdf:
-#    pdf-engine: lualatex  # or pdflatex or xelatex
+      mathjax: true
+      include: 
+        - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+      options:
+        tex:
+          packages: ["base", "mhchem"]
+# required to render PNG/SVG properly when R code is there 
+engine: jupyter 
 nocite: |
   @*
 ---
@@ -21,18 +22,28 @@ nocite: |
 #| echo: false
 from lib_utils import db_df, db_table
 from lib_gridplots import FlexibleGridPlot
+%config InlineBackend.figure_format = 'svg'
 ```
 
-## Quarto
+## MathJax - mhchem
+$\ce{H2O}$
+
+## R
+
+```{r}
+1+1
+```
+
+
+## Python
 
 ```{python}
 #| label: fig-amino-acids
 #| fig-cap: "Matrix"
 #| fig-cap-location: margin
 #| echo: false 
-#| results: asis
 
-df = db_df("select * from v_codons2_gc1_dst")
+df = db_df("SELECT * FROM v_codons2_gc1_dst")
 FlexibleGridPlot("data/grid1.yaml", df).draw()
 ```
 
@@ -42,7 +53,9 @@ Quarto enables you to weave together content and executable code into a finished
 #| label: tbl-amino-acids
 #| tbl-cap: 'Amino acids with nucleon counts in backbone (block), side chain, and total, ordered by their weight.'
 
-db_table("select name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t from amino_acids order by nuclsum_t", ['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])
+db_table(
+  'SELECT name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t FROM amino_acids ORDER BY nuclsum_t', 
+  headers=['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])
 ```
 
 ```{python}
@@ -50,7 +63,7 @@ db_table("select name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t from am
 #| label: tbl-genetic-codes-codons
 #| tbl-cap: 'Codon assignments for [known variants of the Genetic Code](https://en.wikipedia.org/wiki/List_of_genetic_codes). GC1 = Standard Code.'
 
-db_table("select * from genetic_codes_codons")
+db_table("SELECT * FROM genetic_codes_codons")
 ```
 
 ::: {.callout-note collapse="true"}
@@ -62,7 +75,7 @@ db_table("select * from genetic_codes_codons")
 #| echo: false
 #| label: tbl-genetic-codes-list
 
-db_table("select id, name from genetic_codes", ["Id", "Species"])
+db_table("SELECT id, name FROM genetic_codes", ["Id", "Species"])
 ```
 :::
 
@@ -71,27 +84,14 @@ db_table("select id, name from genetic_codes", ["Id", "Species"])
 #| label: tbl-genetic-codes-codon12-symbol1
 #| tbl-cap: 'Codon assignments for the Standard Code, contracted by the first two nucleotide bases.'
 
-from lib_utils import db_table
-db_table("select codon12, group_concat(symbol1, ', '), nuclsum_b, nuclsum_s, nuclsum_t from v_codons2_symbol1_gc1_dst group by codon12", ["Codon", "Amino Acids", "Nucleon BL", "Nucleon SC", "Nucleon Total"])
+db_table(
+  "SELECT codon12, GROUP_CONCAT(symbol1, ', '), nuclsum_b, nuclsum_s, nuclsum_t FROM v_codons2_symbol1_gc1_dst GROUP BY codon12", 
+  headers=["Codon", "Amino Acids", "Nucleon BL", "Nucleon SC", "Nucleon Total"])
 ```
 
 ## Running Code
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-#| include: false
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2 + 1
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
 
 ```{python}
 #| label: fig-margin
@@ -194,32 +194,51 @@ CC & CT & TC & TT
 \end{bmatrix}
 $$
 
-## Chemical Formula with ce package
-
-$$
-\ce{CH4 + 2 O2 -> CO2 + 2 H2O}
-$$
-
 ## 2D Molecule
+
 ```{python}
 #| echo: false
-#| label: fig-trp
-#| fig-cap: "List of proteinogenic amino acids, ordered by nucleon sum."
+#| label: fig-trp2
 from rdkit import Chem
-from rdkit.Chem import Draw
-from IPython.display import HTML
+from rdkit.Chem import Draw, AllChem
 
-df = db_df("SELECT name, smiles FROM amino_acids WHERE smiles IS NOT NULL ORDER BY nuclsum_t")
+df = db_df(
+    "SELECT name, smiles FROM amino_acids WHERE smiles IS NOT NULL ORDER BY nuclsum_t"
+)
 
-# Convert to RDKit molecules
-mols = [Chem.MolFromSmiles(row["smiles"]) for _, row in df.iterrows()]
-names = [row["name"] for _, row in df.iterrows()]
+# Template for alignment: Glycine (small and clean backbone)
+template = Chem.MolFromSmiles("NCC(=O)O")
+_ = AllChem.Compute2DCoords(template)
+
+mols = []
+legends = []
+for _, row in df.iterrows():
+  name = row["name"]
+  smiles = row["smiles"]
+
+  mol = Chem.MolFromSmiles(smiles)
+  #mol = Chem.AddHs(mol_no_H)
+  # Align molecule to template, suppress output
+  _ = AllChem.Compute2DCoords(mol)
+  _ = AllChem.GenerateDepictionMatching2DStructure(mol, template)
+  mols.append(mol)
+
+  legends.append(name)
+
+opts = Draw.rdMolDraw2D.MolDrawOptions()
+#opts.legendFraction = 0.25
+#opts.legendFontSize = 24
 
 # Draw grid with labels, SVG output
-svg = Draw.MolsToGridImage(mols, molsPerRow=4, subImgSize=(200,200), legends=names, useSVG=True)
-
-# Display as raw HTML (Quarto-compatible)
-HTML(svg)
+Draw.MolsToGridImage(
+  mols,
+  molsPerRow=4,
+  subImgSize=(200, 200),
+  legends=legends,
+  useSVG=True,
+  returnPNG=False,
+  drawOptions=opts
+)
 ```
 
 
