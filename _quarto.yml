@@ -75,5 +75,4 @@ fig-cap-location: margin
 tbl-cap-location: margin
 
 execute:
-  eval: false
   freeze: auto
