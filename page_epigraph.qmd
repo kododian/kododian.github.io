@@ -1,0 +1,20 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+    mainfont: "EB Garamond"
+    css: styles.css
+---
+# Inspiration {.unnumbered .unlisted}
+
+<br><br><br><br>
+
+<div class="quote-page">
+
+<blockquote>
+  „Life writes in code. We’re only beginning to read.”
+</blockquote>
+
+</div>

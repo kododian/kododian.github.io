@@ -4,49 +4,59 @@ project:
   resources:
     - data  # Include data folder in built site
 
-date: last-modified
-
-author: 
-  - name: Christoph Kovacs
-
 book:
-  title: "The Kodonian Project"
-  author: "Christoph Kovacs"
-  date: "06/01/2025"
+  title: Signal in the Code
+  subtitle: A Message Detected in Life's Blueprint
+  cover-image: assets/cover-image.jpg
+  author: Christoph Kovacs
+  date: last-modified
+  date-format: "MMM D, YYYY"
   site-url: https://kodonian.github.io/
   repo-url: https://github.com/kododian/kododian.github.io
   repo-branch: master
+  repo-actions: [issue]
   sharing: [twitter, facebook, linkedin]
-  chapters:
-    - index.qmd
-    - page_preface.qmd
-    - page_faq.qmd
-    - page_demo.qmd
-    - page_references.qmd
-  appendices:
-    - page_a1.qmd
+  search: true
+  downloads: [pdf]
   page-navigation: true
   page-footer: 
     left: "© 2025, Christoph Kovacs"
     right: "Released May 25, 2025"
-  search: true
-  downloads: [pdf]
+  chapters:
+    - index.qmd
+    #- page_colophon.qmd
+    - page_epigraph.qmd
+    - page_preface.qmd
+    - part: part_i_foundations.qmd
+      chapters:
+        - page_demo.qmd
+    - part: part_ii_code.qmd
+    - part: part_iii_signal.qmd
+    - part: part_iv_implications.qmd
+    - part: part_v_questions.qmd
+      chapters:
+        - page_faq.qmd
+    - page_references.qmd
+  appendices:
+    - appendix_a1.qmd
+    - appendix_supplements.qmd
 
-    
-# website:
-#   title: "The Kodonian Project"
-#   repo-url: https://github.com/kodonian/kodonian.github.io
-#   repo-actions: [source]
-#   bread-crumbs: true
-  
-#   sidebar:
-#     style: "docked"
-#     contents: auto
-#   page-footer:
-#     center: 
-#       - text: "Pub:lished May 25, 2025<br>Last Updated: {{< meta date >}}."
+bibliography: refs/references.bib
+
+link-citations: true
+citations-hover: true
+reference-location: margin
+citation-location: margin
+fig-cap-location: margin
+tbl-cap-location: margin
+
+appendix-style: default
 
 format:
+  #epub: 
+  #  epub-cover-image: images/cover.png
+  #  fig-format: png
+
   html:
     theme:
       - cosmo
@@ -56,23 +66,22 @@ format:
     #  margin-width: 350px
     code-link: true
   pdf:
+    subject: "" # TBD
+    keywords: "" # TBD
     documentclass: scrreprt
     classoption: nottoc
     toc: true
     toc-depth: 3
     lof: true
     lot: true
+    colorlinks: true
+    urlcolor: Green4
+    citecolor: violet
+    linkcolor: violet
     include-in-header: 
       text: |
         \usepackage{tocbibind}
       
-bibliography: refs/references.bib
-link-citations: true
-      
-reference-location: margin
-citation-location: margin
-fig-cap-location: margin
-tbl-cap-location: margin
 
 execute:
   freeze: auto

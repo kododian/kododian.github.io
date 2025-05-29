@@ -1,5 +1,4 @@
 ---
-title: "References"
 citeproc: true
 nocite: |
   @*
@@ -7,7 +6,7 @@ link-citations: true
 citation-location: document
 ---
 
-### References
+# References {.unnumbered}
 
 ::: {#refs}
 :::

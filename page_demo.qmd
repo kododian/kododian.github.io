@@ -48,6 +48,7 @@ Quarto enables you to weave together content and executable code into a finished
 
 ```{python}
 #| label: tab-amino-acids
+#| echo: false
 db_table(
   'SELECT name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t FROM amino_acids ORDER BY nuclsum_t', 
   headers=['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])

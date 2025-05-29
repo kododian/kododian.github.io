@@ -1,9 +1,11 @@
 {
-  "hash": "769480a075fb43ede13103f60f87e1a4",
+  "hash": "8085dcd5ce8eb1af049ad80a0825ebf0",
   "result": {
     "engine": "knitr",
-    "markdown": "# Preface {.unnumbered}\n\nhere we go...\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n",
-    "supporting": [],
+    "markdown": "## Preface {.unnumbered}\n\nhere we go...\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n",
+    "supporting": [
+      "page_preface_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
