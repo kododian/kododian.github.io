@@ -1,5 +1,4 @@
 ---
-title: "Frequently Asked Questions"
 format: html
 title-block-style: default
 callout-appearance: minimal
@@ -7,6 +6,7 @@ abstract: |
   Find here answers to common questions around the topic of our Genetic Code Signal research.
 ---
 
+# FAQ {.unnumbered}
 
 ::: {.callout-note collapse="true"}
 ## Are we serious?

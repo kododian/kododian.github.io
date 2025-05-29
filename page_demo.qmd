@@ -25,8 +25,6 @@ from lib_gridplots import FlexibleGridPlot
 
 ## MathJax - mhchem
 
-$\ce{H2O}$
-
 ## R
 
 ```{r}
@@ -48,20 +46,10 @@ FlexibleGridPlot("data/grid1.yaml", df).draw()
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ```{python}
-#| label: tbl-amino-acids
-#| tbl-cap: 'Amino acids with nucleon counts in backbone (block), side chain, and total, ordered by their weight.'
-
+#| label: tab-amino-acids
 db_table(
   'SELECT name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t FROM amino_acids ORDER BY nuclsum_t', 
   headers=['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])
-```
-
-```{python}
-#| echo: false
-#| label: tbl-genetic-codes-codons
-#| tbl-cap: 'Codon assignments for [known variants of the Genetic Code](https://en.wikipedia.org/wiki/List_of_genetic_codes). GC1 = Standard Code.'
-
-db_table("SELECT * FROM genetic_codes_codons")
 ```
 
 ::: {.callout-note collapse="true"}
@@ -70,17 +58,16 @@ db_table("SELECT * FROM genetic_codes_codons")
 [Source](https://en.wikipedia.org/wiki/List_of_genetic_codes)
 
 ```{python}
+#| label: tab-genetic-codes
 #| echo: false
-#| label: tbl-genetic-codes-list
-
 db_table("SELECT id, name FROM genetic_codes", ["Id", "Species"])
 ```
 :::
 
 ```{python}
+#| label: tab-codon-assignments
 #| echo: false
-#| label: tbl-genetic-codes-codon12-symbol1
-#| tbl-cap: 'Codon assignments for the Standard Code, contracted by the first two nucleotide bases.'
+#| tbl-cap: "Codon assignments for the Standard Code, contracted by the first two nucleotide bases."
 
 db_table(
   "SELECT codon12, GROUP_CONCAT(symbol1, ', '), nuclsum_b, nuclsum_s, nuclsum_t FROM v_codons2_symbol1_gc1_dst GROUP BY codon12", 
@@ -91,15 +78,7 @@ db_table(
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{python}
-#| label: fig-margin
-#| fig-cap: "MPG vs horsepower, colored"
-#| column: margin
-import numpy as np
-
-x = np.pi/2
-print(x)
-```
+## ASCII Table
 
 |   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -120,9 +99,6 @@ print(x)
 | E | α | ß | Γ | π | Σ | σ | µ | τ | Φ | Θ | Ω | δ | ∞ | φ | ε | ∩ |
 | F | ≡ | ± | ≥ | ≤ | ⌠ | ⌡ | ÷ | ≈ | ° | ∙ | ⋅ | √ | ⁿ | ² | ■ | ↗ |
 
-: Demonstration of pipe table syntax
-
-hello there
 
 ```{mermaid}
 %%| label: fig-flowchart
@@ -136,7 +112,7 @@ flowchart LR
 ```
 
 ```{dot}
-//| label: fig-fullwidth
+//| label: graph
 //| fig-cap: "A full width figure."
 graph G {
   layout=neato
@@ -195,8 +171,8 @@ $$
 ## 2D Molecule
 
 ```{python}
+#| label: fig-amino-acids-diagram
 #| echo: false
-#| label: fig-trp2
 from rdkit import Chem
 from rdkit.Chem import Draw, AllChem
 

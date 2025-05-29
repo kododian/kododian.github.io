@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
   resources:
     - data  # Include data folder in built site
 
@@ -12,19 +13,24 @@ book:
   title: "The Kodonian Project"
   author: "Christoph Kovacs"
   date: "06/01/2025"
+  site-url: https://kodonian.github.io/
+  repo-url: https://github.com/kododian/kododian.github.io
+  repo-branch: master
+  sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
-    - page_intro.qmd
+    - page_preface.qmd
     - page_faq.qmd
     - page_demo.qmd
     - page_references.qmd
+  appendices:
+    - page_a1.qmd
   page-navigation: true
   page-footer: 
     left: "© 2025, Christoph Kovacs"
     right: "Released May 25, 2025"
-  site-url: https://kodonian.github.io/
   search: true
-  #downloads: [pdf, epub]
+  downloads: [pdf]
 
     
 # website:
@@ -40,16 +46,25 @@ book:
 #     center: 
 #       - text: "Pub:lished May 25, 2025<br>Last Updated: {{< meta date >}}."
 
-      
-
 format:
   html:
     theme:
       - cosmo
     css: styles.css
     toc: true
-    grid:
-      margin-width: 350px
+    #grid:
+    #  margin-width: 350px
+    code-link: true
+  pdf:
+    documentclass: scrreprt
+    classoption: nottoc
+    toc: true
+    toc-depth: 3
+    lof: true
+    lot: true
+    include-in-header: 
+      text: |
+        \usepackage{tocbibind}
       
 bibliography: refs/references.bib
 link-citations: true
