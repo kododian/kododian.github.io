@@ -1,6 +1,4 @@
----
-title: "The Kodonian Project"
----
+# Welcome {.unnumbered}
 
 ::: {.callout-note}
 ## Purpose & Goal
