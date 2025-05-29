@@ -1,0 +1,362 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Demo Site\"\n",
+        "format: \n",
+        "  html: \n",
+        "    fig-format: svg\n",
+        "    math:\n",
+        "      mathjax: true\n",
+        "      include: \n",
+        "        - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\n",
+        "      options:\n",
+        "        tex:\n",
+        "          packages: [\"base\", \"mhchem\"]\n",
+        "# required to render PNG/SVG properly when R code is there \n",
+        "engine: jupyter \n",
+        "nocite: |\n",
+        "  @*\n",
+        "---"
+      ],
+      "id": "5bd3b6d8"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "from lib_utils import db_df, db_table\n",
+        "from lib_gridplots import FlexibleGridPlot\n",
+        "%config InlineBackend.figure_format = 'svg'"
+      ],
+      "id": "eeb231cd",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## MathJax - mhchem\n",
+        "\n",
+        "$\\ce{H2O}$\n",
+        "\n",
+        "## R\n",
+        "\n",
+        "\n",
+        "```{r}\n",
+        "1+1\n",
+        "```\n",
+        "\n",
+        "\n",
+        "## Python\n"
+      ],
+      "id": "68d45437"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-amino-acids\n",
+        "#| fig-cap: Matrix\n",
+        "#| fig-cap-location: margin\n",
+        "#| echo: false\n",
+        "\n",
+        "df = db_df(\"SELECT * FROM v_codons2_gc1_dst\")\n",
+        "FlexibleGridPlot(\"data/grid1.yaml\", df).draw()"
+      ],
+      "id": "fig-amino-acids",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n"
+      ],
+      "id": "6f48648c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: tbl-amino-acids\n",
+        "#| tbl-cap: Amino acids with nucleon counts in backbone (block), side chain, and total, ordered by their weight.\n",
+        "\n",
+        "db_table(\n",
+        "  'SELECT name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t FROM amino_acids ORDER BY nuclsum_t', \n",
+        "  headers=['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])"
+      ],
+      "id": "tbl-amino-acids",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "#| label: tbl-genetic-codes-codons\n",
+        "#| tbl-cap: Codon assignments for [known variants of the Genetic Code](https://en.wikipedia.org/wiki/List_of_genetic_codes). GC1 = Standard Code.\n",
+        "\n",
+        "db_table(\"SELECT * FROM genetic_codes_codons\")"
+      ],
+      "id": "tbl-genetic-codes-codons",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "::: {.callout-note collapse=\"true\"}\n",
+        "## Expand for a list of Genetic Code variants\n",
+        "\n",
+        "[Source](https://en.wikipedia.org/wiki/List_of_genetic_codes)\n"
+      ],
+      "id": "81bb10d4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "#| label: tbl-genetic-codes-list\n",
+        "\n",
+        "db_table(\"SELECT id, name FROM genetic_codes\", [\"Id\", \"Species\"])"
+      ],
+      "id": "tbl-genetic-codes-list",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        ":::\n"
+      ],
+      "id": "26a87e34"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "#| label: tbl-genetic-codes-codon12-symbol1\n",
+        "#| tbl-cap: Codon assignments for the Standard Code, contracted by the first two nucleotide bases.\n",
+        "\n",
+        "db_table(\n",
+        "  \"SELECT codon12, GROUP_CONCAT(symbol1, ', '), nuclsum_b, nuclsum_s, nuclsum_t FROM v_codons2_symbol1_gc1_dst GROUP BY codon12\", \n",
+        "  headers=[\"Codon\", \"Amino Acids\", \"Nucleon BL\", \"Nucleon SC\", \"Nucleon Total\"])"
+      ],
+      "id": "tbl-genetic-codes-codon12-symbol1",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Running Code\n",
+        "\n",
+        "When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n"
+      ],
+      "id": "a7e9e862"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-margin\n",
+        "#| fig-cap: MPG vs horsepower, colored\n",
+        "#| column: margin\n",
+        "import numpy as np\n",
+        "\n",
+        "x = np.pi/2\n",
+        "print(x)"
+      ],
+      "id": "fig-margin",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "|   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |\n",
+        "|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|\n",
+        "| 0 | ⌘ | ☺ | ☻ | [♥]{.bg-warning} | [♦]{.bg-warning} | ♣ | ♠ | • | ◘ | ○ | ◙ | ♂ | ♀ | ♪ | ♫ | ☼ |\n",
+        "| 1 | ► | ◄ | ↕ | !! | ¶ | § | ▬ | ↨ | ↑ | ↓ | → | ← | ∟ | ↔ | ▲ | ▼ |\n",
+        "| 2 |  | ! | \" | \\# | \\$ | \\% | & | ' | ( | ) | \\* | \\+ | , | \\- | . | / |\n",
+        "| 3 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | : | ; | \\< | = | \\> | ? |\n",
+        "| 4 | \\@ | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |\n",
+        "| 5 | P | Q | R | S | T | U | V | W | X | Y | Z | \\[ | \\\\ | \\] | \\^ | \\_ |\n",
+        "| 6 | \\` | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o |\n",
+        "| 7 | p | q | r | s | t | u | v | w | x | y | z | { | \\| | } | \\~ | ⌂ |\n",
+        "| 8 | Ç | ü | é | â | ä | à | å | ç | ê | ë | è | ï | î | ì | Ä | Å |\n",
+        "| 9 | É | æ | Æ | ô | ö | ò | û | ù | ÿ | Ö | Ü | ¢ | £ | ¥ | ₧ | ƒ |\n",
+        "| A | á | í | ó | ú | ñ | Ñ | ª | º | ¿ | ⌐ | ¬ | ½ | ¼ | ¡ | « | » |\n",
+        "| B | ░ | ▒ | ▓ | │ | ┤ | ╡ | ╢ | ╖ | ╕ | ╣ | ║ | ╗ | ╝ | ╜ | ╛ | ┐ |\n",
+        "| C | └ | ┴ | ┬ | ├ | ─ | ┼ | ╞ | ╟ | ╚ | ╔ | ╩ | ╦ | ╠ | ═ | ╬ | ╧ |\n",
+        "| D | ╨ | ╤ | ╥ | ╙ | ╘ | ╒ | ╓ | ╫ | ╪ | ┘ | ┌ | █ | ▄ | ▌ | ▐ | ▀ |\n",
+        "| E | α | ß | Γ | π | Σ | σ | µ | τ | Φ | Θ | Ω | δ | ∞ | φ | ε | ∩ |\n",
+        "| F | ≡ | ± | ≥ | ≤ | ⌠ | ⌡ | ÷ | ≈ | ° | ∙ | ⋅ | √ | ⁿ | ² | ■ | ↗ |\n",
+        "\n",
+        ": Demonstration of pipe table syntax\n",
+        "\n",
+        "hello there\n",
+        "\n",
+        "\n",
+        "```{mermaid}\n",
+        "%%| label: fig-flowchart\n",
+        "%%| fig-cap: \"A flowchart.\"\n",
+        "%%| fig-column: screen-right\n",
+        "flowchart LR\n",
+        "  A[Hard edge] --> B(Round edge)\n",
+        "  B --> C{Decision}\n",
+        "  C --> D[Result one]\n",
+        "  C --> E[Result two]\n",
+        "```\n",
+        "\n",
+        "```{dot}\n",
+        "//| label: fig-fullwidth\n",
+        "//| fig-cap: \"A full width figure.\"\n",
+        "graph G {\n",
+        "  layout=neato\n",
+        "  run -- intr;\n",
+        "  intr -- runbl;\n",
+        "  runbl -- run;\n",
+        "  run -- kernel;\n",
+        "  kernel -- zombie;\n",
+        "  kernel -- sleep;\n",
+        "  kernel -- runmem;\n",
+        "  sleep -- swap;\n",
+        "  swap -- runswap;\n",
+        "  runswap -- new;\n",
+        "  runswap -- runmem;\n",
+        "  new -- runmem;\n",
+        "  sleep -- runmem;\n",
+        "}\n",
+        "```\n",
+        "\n",
+        "```{mermaid}\n",
+        "quadrantChart\n",
+        "    title Reach and engagement of campaigns\n",
+        "    x-axis Low Reach --> High Reach\n",
+        "    y-axis Low Engagement --> High Engagement\n",
+        "    quadrant-1 We should expand\n",
+        "    quadrant-2 Need to promote\n",
+        "    quadrant-3 Re-evaluate\n",
+        "    quadrant-4 May be improved\n",
+        "    Campaign A: [0.3, 0.6]\n",
+        "    Campaign B: [0.45, 0.23]\n",
+        "    Campaign C: [0.57, 0.69]\n",
+        "    Campaign D: [0.78, 0.34]\n",
+        "    Campaign E: [0.40, 0.34]\n",
+        "    Campaign F: [0.35, 0.78]\n",
+        "```\n",
+        "\n",
+        "\n",
+        "$$\n",
+        "\\begin{bmatrix} \n",
+        "G & A \\\\ \n",
+        "C & T \\\\ \n",
+        "\\end{bmatrix}\n",
+        "\\otimes\n",
+        "\\begin{bmatrix} \n",
+        "G & A \\\\ \n",
+        "C & T \\\\ \n",
+        "\\end{bmatrix}\n",
+        "=\n",
+        "\\begin{bmatrix} \n",
+        "GG & GA & AG & AA \\\\ \n",
+        "GC & GT & AC & AT \\\\ \n",
+        "CG & CA & TG & TA \\\\ \n",
+        "CC & CT & TC & TT \n",
+        "\\end{bmatrix}\n",
+        "$$\n",
+        "\n",
+        "## 2D Molecule\n"
+      ],
+      "id": "a1241212"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "#| label: fig-trp2\n",
+        "from rdkit import Chem\n",
+        "from rdkit.Chem import Draw, AllChem\n",
+        "\n",
+        "df = db_df(\n",
+        "    \"SELECT name, smiles FROM amino_acids WHERE smiles IS NOT NULL ORDER BY nuclsum_t\"\n",
+        ")\n",
+        "\n",
+        "# Template for alignment: Glycine (small and clean backbone)\n",
+        "template = Chem.MolFromSmiles(\"NCC(=O)O\")\n",
+        "_ = AllChem.Compute2DCoords(template)\n",
+        "\n",
+        "mols = []\n",
+        "legends = []\n",
+        "for _, row in df.iterrows():\n",
+        "  name = row[\"name\"]\n",
+        "  smiles = row[\"smiles\"]\n",
+        "\n",
+        "  mol = Chem.MolFromSmiles(smiles)\n",
+        "  #mol = Chem.AddHs(mol_no_H)\n",
+        "  # Align molecule to template, suppress output\n",
+        "  _ = AllChem.Compute2DCoords(mol)\n",
+        "  _ = AllChem.GenerateDepictionMatching2DStructure(mol, template)\n",
+        "  mols.append(mol)\n",
+        "\n",
+        "  legends.append(name)\n",
+        "\n",
+        "opts = Draw.rdMolDraw2D.MolDrawOptions()\n",
+        "#opts.legendFraction = 0.25\n",
+        "#opts.legendFontSize = 24\n",
+        "\n",
+        "# Draw grid with labels, SVG output\n",
+        "Draw.MolsToGridImage(\n",
+        "  mols,\n",
+        "  molsPerRow=4,\n",
+        "  subImgSize=(200, 200),\n",
+        "  legends=legends,\n",
+        "  useSVG=True,\n",
+        "  returnPNG=False,\n",
+        "  drawOptions=opts\n",
+        ")"
+      ],
+      "id": "fig-trp2",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "[This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}\n",
+        "\n",
+        "As outlined by @crickDirectedPanspermia1973, pp. 16-18, we find this below. Also by referencing this, we end up there[^1], as outlined in @fig-flowchart. Also refer to @fig-amino-acids for more details.\n",
+        "\n",
+        "[^1]: Here is the footnote."
+      ],
+      "id": "1397f9bf"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/chris/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

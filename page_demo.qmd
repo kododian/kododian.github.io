@@ -2,8 +2,6 @@
 title: "Demo Site"
 format: 
   html: 
-    include-in-header: 
-     - includes/head.html
     fig-format: svg
     math:
       mathjax: true
@@ -26,6 +24,7 @@ from lib_gridplots import FlexibleGridPlot
 ```
 
 ## MathJax - mhchem
+
 $\ce{H2O}$
 
 ## R
@@ -33,7 +32,6 @@ $\ce{H2O}$
 ```{r}
 1+1
 ```
-
 
 ## Python
 
@@ -105,7 +103,7 @@ print(x)
 
 |   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0 | ⌘ | ☺ | ☻ | [♥]{.bg-yellow-300} | [♦]{.bg-yellow-300} | ♣ | ♠ | • | ◘ | ○ | ◙ | ♂ | ♀ | ♪ | ♫ | ☼ |
+| 0 | ⌘ | ☺ | ☻ | [♥]{.bg-warning} | [♦]{.bg-warning} | ♣ | ♠ | • | ◘ | ○ | ◙ | ♂ | ♀ | ♪ | ♫ | ☼ |
 | 1 | ► | ◄ | ↕ | !! | ¶ | § | ▬ | ↨ | ↑ | ↓ | → | ← | ∟ | ↔ | ▲ | ▼ |
 | 2 |  | ! | " | \# | \$ | \% | & | ' | ( | ) | \* | \+ | , | \- | . | / |
 | 3 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | : | ; | \< | = | \> | ? |
@@ -241,19 +239,8 @@ Draw.MolsToGridImage(
 )
 ```
 
-
 [This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
 
 As outlined by @crickDirectedPanspermia1973, pp. 16-18, we find this below. Also by referencing this, we end up there[^1], as outlined in @fig-flowchart. Also refer to @fig-amino-acids for more details.
 
 [^1]: Here is the footnote.
-
-### References
-
-::: {#refs}
-:::
-
-### Supplementary Material
-
--   list 1
--   list 2

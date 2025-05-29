@@ -1,5 +1,8 @@
 ---
 title: "Test Site"
+#format:
+#    pdf:
+#        pdf-engine: pdflatex  # or xelatex or lualatex
 ---
 
 This is an equation: `$underbrace(e^(i pi), -1) + 1 = 0$`{=typst}
