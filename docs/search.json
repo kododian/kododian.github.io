@@ -1,0 +1,113 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Kodonian Project",
+    "section": "",
+    "text": "Welcome\n\n\n\n\n\n\nPurpose & Goal\n\n\n\nThe Kodonian Project seeks to demonstrate that the Universal Genetic Code contains an embedded signal—an intentional, structured message—suggesting a deeper informational or even extraterrestrial origin behind the blueprint of life on Earth.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "page_preface.html",
+    "href": "page_preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "here we go…\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "page_faq.html",
+    "href": "page_faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Are we serious?\n\n\n\n\n\nYes\n\n\n\n\n\n\n\n\n\nWho is the main contributor of this project?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nHas research in this area been conducted elsewhere?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments for a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments against a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nEvolution did it, didn’t it?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "crumbs": [
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "page_demo.html",
+    "href": "page_demo.html",
+    "title": "1  Demo Site",
+    "section": "",
+    "text": "1.1 MathJax - mhchem",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#r",
+    "href": "page_demo.html#r",
+    "title": "1  Demo Site",
+    "section": "1.2 R",
+    "text": "1.2 R\n1+1",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#python",
+    "href": "page_demo.html#python",
+    "title": "1  Demo Site",
+    "section": "1.3 Python",
+    "text": "1.3 Python\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\ndb_table(\n  'SELECT name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t FROM amino_acids ORDER BY nuclsum_t', \n  headers=['Name', 'Short Name', 'Symbol', 'Block Sum', 'Side Chain Sum', 'Total Sum'])\n\n\n\n\n\n\n\nExpand for a list of Genetic Code variants\n\n\n\n\n\nSource",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#running-code",
+    "href": "page_demo.html#running-code",
+    "title": "1  Demo Site",
+    "section": "1.4 Running Code",
+    "text": "1.4 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#ascii-table",
+    "href": "page_demo.html#ascii-table",
+    "title": "1  Demo Site",
+    "section": "1.5 ASCII Table",
+    "text": "1.5 ASCII Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nA\nB\nC\nD\nE\nF\n\n\n\n\n0\n⌘\n☺\n☻\n♥\n♦\n♣\n♠\n•\n◘\n○\n◙\n♂\n♀\n♪\n♫\n☼\n\n\n1\n►\n◄\n↕\n!!\n¶\n§\n▬\n↨\n↑\n↓\n→\n←\n∟\n↔︎\n▲\n▼\n\n\n2\n\n!\n”\n#\n$\n%\n&\n’\n(\n)\n*\n+\n,\n-\n.\n/\n\n\n3\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n&lt;\n=\n&gt;\n?\n\n\n4\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\n\n\n5\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\\n]\n^\n_\n\n\n6\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\n\n\n7\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n⌂\n\n\n8\nÇ\nü\né\nâ\nä\nà\nå\nç\nê\në\nè\nï\nî\nì\nÄ\nÅ\n\n\n9\nÉ\næ\nÆ\nô\nö\nò\nû\nù\nÿ\nÖ\nÜ\n¢\n£\n¥\n₧\nƒ\n\n\nA\ná\ní\nó\nú\nñ\nÑ\nª\nº\n¿\n⌐\n¬\n½\n¼\n¡\n«\n»\n\n\nB\n░\n▒\n▓\n│\n┤\n╡\n╢\n╖\n╕\n╣\n║\n╗\n╝\n╜\n╛\n┐\n\n\nC\n└\n┴\n┬\n├\n─\n┼\n╞\n╟\n╚\n╔\n╩\n╦\n╠\n═\n╬\n╧\n\n\nD\n╨\n╤\n╥\n╙\n╘\n╒\n╓\n╫\n╪\n┘\n┌\n█\n▄\n▌\n▐\n▀\n\n\nE\nα\nß\nΓ\nπ\nΣ\nσ\nµ\nτ\nΦ\nΘ\nΩ\nδ\n∞\nφ\nε\n∩\n\n\nF\n≡\n±\n≥\n≤\n⌠\n⌡\n÷\n≈\n°\n∙\n⋅\n√\nⁿ\n²\n■\n↗\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.1: A flowchart.\n\n\n\n\n\n\n\n\n\n\n\nA full width figure.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\[\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n\\otimes\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n=\n\\begin{bmatrix}\nGG & GA & AG & AA \\\\\nGC & GT & AC & AT \\\\\nCG & CA & TG & TA \\\\\nCC & CT & TC & TT\n\\end{bmatrix}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#d-molecule",
+    "href": "page_demo.html#d-molecule",
+    "title": "1  Demo Site",
+    "section": "1.6 2D Molecule",
+    "text": "1.6 2D Molecule\nThis is a span that has the class aside which places it in the margin without a footnote number.\nAs outlined by Crick and Orgel (1973), pp. 16-18, we find this below. Also by referencing this, we end up there1, as outlined in Figure 1.1. Also refer to ?fig-amino-acids for more details.\n\n\n\n\nCrick, F. H. C., and L. E. Orgel. 1973. “Directed Panspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n1 Here is the footnote.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_references.html",
+    "href": "page_references.html",
+    "title": "2  References",
+    "section": "",
+    "text": "2.0.1 References\n\n\nCrick, F. H. C., and L. E. Orgel. 1973. “Directed\nPanspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n\n\n\n\n2.0.2 Supplementary Material",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "page_a1.html",
+    "href": "page_a1.html",
+    "title": "Appendix A — hello",
+    "section": "",
+    "text": "B Appendix 1\nhere we go…\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>hello</span>"
+    ]
+  }
+]
