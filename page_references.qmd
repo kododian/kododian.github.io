@@ -1,6 +1,5 @@
 ---
 title: "References"
-format: html
 citeproc: true
 nocite: |
   @*

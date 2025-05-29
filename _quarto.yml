@@ -1,5 +1,5 @@
 project:
-  type: website
+  type: book
   resources:
     - data  # Include data folder in built site
 
@@ -7,22 +7,39 @@ date: last-modified
 
 author: 
   - name: Christoph Kovacs
-    
-execute:
-  freeze: auto
 
-website:
+book:
   title: "The Kodonian Project"
-  repo-url: https://github.com/kodonian/kodonian.github.io
-  repo-actions: [source]
-  bread-crumbs: true
+  author: "Christoph Kovacs"
+  date: "06/01/2025"
+  chapters:
+    - index.qmd
+    - page_intro.qmd
+    - page_faq.qmd
+    - page_demo.qmd
+    - page_references.qmd
+  page-navigation: true
+  page-footer: 
+    left: "© 2025, Christoph Kovacs"
+    right: "Released May 25, 2025"
+  site-url: https://kodonian.github.io/
+  search: true
+  #downloads: [pdf, epub]
+
+    
+# website:
+#   title: "The Kodonian Project"
+#   repo-url: https://github.com/kodonian/kodonian.github.io
+#   repo-actions: [source]
+#   bread-crumbs: true
   
-  sidebar:
-    style: "docked"
-    contents: auto
-  page-footer:
-    center: 
-      - text: "Pub: May 25, 2025 – Upd: {{< meta date >}}."
+#   sidebar:
+#     style: "docked"
+#     contents: auto
+#   page-footer:
+#     center: 
+#       - text: "Pub:lished May 25, 2025<br>Last Updated: {{< meta date >}}."
+
       
 
 format:
@@ -41,3 +58,6 @@ reference-location: margin
 citation-location: margin
 fig-cap-location: margin
 tbl-cap-location: margin
+
+execute:
+  freeze: auto
