@@ -266,7 +266,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./page_a1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">hello</span></span></a>
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">hello world</span></span></a>
   </div>
 </li>
       </ul>
@@ -331,13 +331,211 @@ window.Quarto = {
 <h2 data-number="1.2" class="anchored" data-anchor-id="r"><span class="header-section-number">1.2</span> R</h2>
 <pre class="{r}"><code>1+1</code></pre>
 </section>
-<section id="python" class="level2" data-number="1.3">
+<section id="python" class="level2 page-columns page-full" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="python"><span class="header-section-number">1.3</span> Python</h2>
+<div id="cell-fig-amino-acids" class="cell page-columns page-full" data-execution_count="2">
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-amino-acids" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-amino-acids-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="page_demo_files/figure-html/fig-amino-acids-output-1.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-amino-acids-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: Matrix
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-<div id="tab-amino-acids" class="cell" data-execution_count="3">
+<div id="cell-tab-amino-acids" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>db_table(</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">'SELECT name, symbol3, symbol1, nuclsum_b, nuclsum_s, nuclsum_t FROM amino_acids ORDER BY nuclsum_t'</span>, </span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  headers<span class="op">=</span>[<span class="st">'Name'</span>, <span class="st">'Short Name'</span>, <span class="st">'Symbol'</span>, <span class="st">'Block Sum'</span>, <span class="st">'Side Chain Sum'</span>, <span class="st">'Total Sum'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="tab-amino-acids" class="cell-output cell-output-display cell-output-markdown" data-execution_count="3">
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Short Name</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: right;">Block Sum</th>
+<th style="text-align: right;">Side Chain Sum</th>
+<th style="text-align: right;">Total Sum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">STOP</td>
+<td style="text-align: left;">Stop</td>
+<td style="text-align: left;">*</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Glycine</td>
+<td style="text-align: left;">Gly</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alanine</td>
+<td style="text-align: left;">Ala</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">89</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Serine</td>
+<td style="text-align: left;">Ser</td>
+<td style="text-align: left;">S</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">105</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Proline</td>
+<td style="text-align: left;">Pro</td>
+<td style="text-align: left;">P</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">115</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Valine</td>
+<td style="text-align: left;">Val</td>
+<td style="text-align: left;">V</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">117</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Threonine</td>
+<td style="text-align: left;">Thr</td>
+<td style="text-align: left;">T</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">119</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cysteine</td>
+<td style="text-align: left;">Cys</td>
+<td style="text-align: left;">C</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">121</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Leucine</td>
+<td style="text-align: left;">Leu</td>
+<td style="text-align: left;">L</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">131</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Isoleucine</td>
+<td style="text-align: left;">Ile</td>
+<td style="text-align: left;">I</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">131</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asparagine</td>
+<td style="text-align: left;">Asn</td>
+<td style="text-align: left;">N</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">132</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aspartic Acid</td>
+<td style="text-align: left;">Asp</td>
+<td style="text-align: left;">D</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">133</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Lysine</td>
+<td style="text-align: left;">Lys</td>
+<td style="text-align: left;">K</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">146</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Glutamine</td>
+<td style="text-align: left;">Gln</td>
+<td style="text-align: left;">Q</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">146</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glutamic Acid</td>
+<td style="text-align: left;">Glu</td>
+<td style="text-align: left;">E</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">147</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Methionine/START</td>
+<td style="text-align: left;">Met</td>
+<td style="text-align: left;">M</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">149</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Histidine</td>
+<td style="text-align: left;">His</td>
+<td style="text-align: left;">H</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">155</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Phenylalanine</td>
+<td style="text-align: left;">Phe</td>
+<td style="text-align: left;">F</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">165</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Arginine</td>
+<td style="text-align: left;">Arg</td>
+<td style="text-align: left;">R</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">174</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tyrosine</td>
+<td style="text-align: left;">Tyr</td>
+<td style="text-align: left;">Y</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">107</td>
+<td style="text-align: right;">181</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tryptophane</td>
+<td style="text-align: left;">Trp</td>
+<td style="text-align: left;">W</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">204</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -352,8 +550,280 @@ Expand for a list of Genetic Code variants
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><a href="https://en.wikipedia.org/wiki/List_of_genetic_codes">Source</a></p>
+<div id="cell-tab-genetic-codes" class="cell" data-execution_count="4">
+<div id="tab-genetic-codes" class="cell-output cell-output-display cell-output-markdown" data-execution_count="4">
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Id</th>
+<th style="text-align: left;">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">GC01</td>
+<td style="text-align: left;">Standard Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC02</td>
+<td style="text-align: left;">Vertebrate Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC03</td>
+<td style="text-align: left;">Yeast Mitochondrial Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC04</td>
+<td style="text-align: left;">Mold, Protozoan, Coelenterate Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC05</td>
+<td style="text-align: left;">Invertebrate Mitochondrial Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC06</td>
+<td style="text-align: left;">Ciliate, Dasycladacean and Hexamita Nuclear Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC07</td>
+<td style="text-align: left;">Deleted Kinetoplast Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC09</td>
+<td style="text-align: left;">Echinoderm and Flatworm Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC10</td>
+<td style="text-align: left;">Euplotid Nuclear Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC11</td>
+<td style="text-align: left;">Bacterial, Archaeal and Plant Plastid Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC12</td>
+<td style="text-align: left;">Alternative Yeast Nuclear Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC13</td>
+<td style="text-align: left;">Ascidian Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC14</td>
+<td style="text-align: left;">Alternative Flatworm Mitochondrial Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC15</td>
+<td style="text-align: left;">Blepharisma Nuclear Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC16</td>
+<td style="text-align: left;">Chlorophycean Mitochondrial Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC21</td>
+<td style="text-align: left;">Trematode Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC22</td>
+<td style="text-align: left;">Scenedesmus Obliquus Mitochondrial Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC23</td>
+<td style="text-align: left;">Thraustochytrium Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC24</td>
+<td style="text-align: left;">Pterobranchia Mitochondrial Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC25</td>
+<td style="text-align: left;">Candidate Division SR1 and Gracilibacteria Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC26</td>
+<td style="text-align: left;">Pachysolen Tannophilus Nuclear Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC27</td>
+<td style="text-align: left;">Karyorelict Nuclear Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC28</td>
+<td style="text-align: left;">Condylostoma Nuclear Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC29</td>
+<td style="text-align: left;">Mesodinium Nuclear Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC30</td>
+<td style="text-align: left;">Peritrich Nuclear Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC31</td>
+<td style="text-align: left;">Blastocrithidia Nuclear Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC32</td>
+<td style="text-align: left;">Balanophoraceae Plastid Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC33</td>
+<td style="text-align: left;">Cephalodiscidae Mitochondrial Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC34</td>
+<td style="text-align: left;">Enterosoma Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC35</td>
+<td style="text-align: left;">Peptacetobacter Code</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GC36</td>
+<td style="text-align: left;">Anaerococcus and Onthovivens Code</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC37</td>
+<td style="text-align: left;">Absconditabacterales Code</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
+</div>
+</div>
+</div>
+<div class="cell page-columns page-full" data-tbl-cap="Codon assignments for the Standard Code, contracted by the first two nucleotide bases." data-execution_count="5">
+<div id="tab-codon-assignments" class="cell-output cell-output-display cell-output-markdown page-columns page-full" data-execution_count="5">
+<table class="table table-sm table-striped small">
+
+<thead>
+<tr class="header">
+<th style="text-align: left;">Codon</th>
+<th style="text-align: left;">Amino Acids</th>
+<th style="text-align: right;">Nucleon BL</th>
+<th style="text-align: right;">Nucleon SC</th>
+<th style="text-align: right;">Nucleon Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AA</td>
+<td style="text-align: left;">N, K</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">132</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AC</td>
+<td style="text-align: left;">T</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">119</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AG</td>
+<td style="text-align: left;">S, R</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">105</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AT</td>
+<td style="text-align: left;">I, M</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">131</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CA</td>
+<td style="text-align: left;">H, Q</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">155</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CC</td>
+<td style="text-align: left;">P</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">115</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CG</td>
+<td style="text-align: left;">R</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">174</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CT</td>
+<td style="text-align: left;">L</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">131</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GA</td>
+<td style="text-align: left;">D, E</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">133</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GC</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">89</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GG</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GT</td>
+<td style="text-align: left;">V</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">117</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">TA</td>
+<td style="text-align: left;">Y, *</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">107</td>
+<td style="text-align: right;">181</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TC</td>
+<td style="text-align: left;">S</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">105</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">TG</td>
+<td style="text-align: left;">C, *, W</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">121</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TT</td>
+<td style="text-align: left;">F, L</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">165</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-table-caption margin-caption">Codon assignments for the Standard Code, contracted by the first two nucleotide bases.</div></div>
 </div>
 </section>
 <section id="running-code" class="level2" data-number="1.4">
@@ -725,7 +1195,7 @@ Expand for a list of Genetic Code variants
 </div>
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-flowchart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: A flowchart.
+Figure&nbsp;1.2: A flowchart.
 </figcaption>
 </figure>
 </div>
@@ -917,8 +1387,22 @@ CC &amp; CT &amp; TC &amp; TT
 </section>
 <section id="d-molecule" class="level2 page-columns page-full" data-number="1.6">
 <h2 data-number="1.6" class="anchored" data-anchor-id="d-molecule"><span class="header-section-number">1.6</span> 2D Molecule</h2>
+<div id="cell-fig-amino-acids-diagram" class="cell page-columns page-full" data-execution_count="6">
+<div class="cell-output cell-output-display page-columns page-full" data-execution_count="6">
+<div id="fig-amino-acids-diagram" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-amino-acids-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="page_demo_files/figure-html/fig-amino-acids-diagram-output-1.svg" id="fig-amino-acids-diagram" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig quarto-uncaptioned margin-caption" id="fig-amino-acids-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">This is a span that has the class aside which places it in the margin without a footnote number.</span></div></div>
-<p>As outlined by <span class="citation" data-cites="crickDirectedPanspermia1973">Crick and Orgel (<a href="page_references.html#ref-crickDirectedPanspermia1973" role="doc-biblioref">1973</a>)</span>, pp.&nbsp;16-18, we find this below. Also by referencing this, we end up there<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, as outlined in <a href="#fig-flowchart" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>. Also refer to <span class="quarto-unresolved-ref">?fig-amino-acids</span> for more details.</p>
+<p>As outlined by <span class="citation" data-cites="crickDirectedPanspermia1973">Crick and Orgel (<a href="page_references.html#ref-crickDirectedPanspermia1973" role="doc-biblioref">1973</a>)</span>, pp.&nbsp;16-18, we find this below. Also by referencing this, we end up there<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, as outlined in <a href="#fig-flowchart" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>. Also refer to <a href="#fig-amino-acids" class="quarto-xref">Figure&nbsp;<span>1.1</span></a> for more details.</p>
 
 
 
