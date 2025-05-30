@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-In 2013, two researchers from Al-Farabi Kazakh National University — biophysicist and mathematician Vladimir shCherbak and astronomer Maxim Makukov — published a paper titled *“The ‘Wow! signal’ of the terrestrial genetic code”*  in Icarus, a peer-reviewed journal focused on planetary science and Solar System research. In their 15-page paper, packed with over 15000 words, they claimed to have discovered an embedded signal within the genetic makeup of life on Earth. While their hypothesis drew immediate attention in fringe online communities and even made appearances on television shows, it was swiftly dismissed by the mainstream scientific community. Terms like “numerology” and “bogus science” were among the more charitable labels applied to their work.
+In 2013, two researchers from Al-Farabi Kazakh National University — biophysicist and mathematician Vladimir shCherbak and astronomer Maxim Makukov — published a paper titled *“The ‘Wow! signal’ of the terrestrial genetic code”* in Icarus, a peer-reviewed journal focused on planetary science and Solar System research. In their 15-page paper, packed with over 15000 words, they claimed to have discovered an embedded signal within the genetic makeup of life on Earth. While their hypothesis drew immediate attention in fringe online communities and even made appearances on television shows, it was swiftly dismissed by the mainstream scientific community. Terms like “numerology” and “bogus science” were among the more charitable labels applied to their work.
 
 Their decision to condense years of research into a single, dense article led M. Makukov to expand on their ideas through additional channels. He launched a dedicated [website](https://bioseti.info), produced explanatory videos on [Youtube](https://www.youtube.com/@MaximMakukov), and hosted a public *Ask Me Anything* (AMA) session on [Reddit](https://www.reddit.com/r/science/comments/2i9tla/science_ama_series_im_maxim_makukov_a_researcher/) titled *"Science AMA Series: I’m Maxim Makukov, a researcher in astrobiology and astrophysics and a co-author of the papers which claim to have identified extraterrestrial signal in the universal genetic code thereby confirming directed panspermia. AMA!"*.
 
@@ -16,6 +16,6 @@ But **were they right**?
 The aim of this book is to demonstrate, beyond any reasonable doubt, that sh'Cherbak and Makukov were fundamentally correct in their theory. However, I believe they overlooked crucial pieces of the puzzle that would have made their case easier to explain and defend. It took me twelve years of working in information and data science, along with focused training in mathematics, bioinformatics, and genetic data analysis, to uncover those missing pieces.
 :::
 
-<div class="comment">
+::: comment
 To the two researchers who led me down this rabbit hole <br>— and made sure I didn’t come back the same.<br><br>Christoph Kovacs, May 2025
-</div>
+:::
