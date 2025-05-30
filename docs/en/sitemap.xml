@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kodonian.github.io/index.html</loc>
-    <lastmod>2025-05-29T20:25:45.837Z</lastmod>
+    <lastmod>2025-05-30T08:21:59.880Z</lastmod>
   </url>
   <url>
     <loc>https://kodonian.github.io/page_preface.html</loc>
-    <lastmod>2025-05-29T17:28:09.804Z</lastmod>
+    <lastmod>2025-05-30T07:47:44.609Z</lastmod>
   </url>
   <url>
     <loc>https://kodonian.github.io/part_i_foundations.html</loc>
@@ -47,5 +47,57 @@
   <url>
     <loc>https://kodonian.github.io/appendix_supplements.html</loc>
     <lastmod>2025-05-29T18:01:52.258Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page_introduction.html</loc>
+    <lastmod>2025-05-30T07:17:35.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page_x_a1.html</loc>
+    <lastmod>2025-05-29T09:21:00.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page_x_supplements.html</loc>
+    <lastmod>2025-05-29T18:01:52.258Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-tng-quote.html</loc>
+    <lastmod>2025-05-30T08:26:24.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-preface.html</loc>
+    <lastmod>2025-05-30T07:47:44.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-introduction.html</loc>
+    <lastmod>2025-05-30T07:17:35.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-demo.html</loc>
+    <lastmod>2025-05-30T05:20:54.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-faq.html</loc>
+    <lastmod>2025-05-29T07:59:28.670Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-references.html</loc>
+    <lastmod>2025-05-29T18:00:34.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-x-a1.html</loc>
+    <lastmod>2025-05-29T09:21:00.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-x-supplements.html</loc>
+    <lastmod>2025-05-29T18:01:52.258Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/part-i-foundations.html</loc>
+    <lastmod>2025-05-30T05:55:39.704Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/part-v-questions.html</loc>
+    <lastmod>2025-05-30T05:56:38.312Z</lastmod>
   </url>
 </urlset>

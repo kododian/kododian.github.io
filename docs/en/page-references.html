@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Preface – Signal in the Code</title>
+<title>References – Signal in the Code</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./part_i_foundations.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./page-tng-quote.html" rel="next">
+<link href="./page-faq.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -70,11 +90,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating slimcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./page_preface.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./page-references.html">References</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -137,18 +186,18 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome</span></a>
+ <span class="menu-text">Welcome 👋</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./page_preface.html" class="sidebar-item-text sidebar-link active">
+  <a href="./page-preface.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_i_foundations.html" class="sidebar-item-text sidebar-link">
+            <a href="./part-i-foundations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Foundations</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -157,14 +206,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./page_introduction.html" class="sidebar-item-text sidebar-link">
+  <a href="./page-introduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./page_demo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Demo Site</span></span></a>
   </div>
 </li>
       </ul>
@@ -183,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part_v_questions.html" class="sidebar-item-text sidebar-link">
+            <a href="./part-v-questions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Questions</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -192,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./page_faq.html" class="sidebar-item-text sidebar-link">
+  <a href="./page-faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FAQ</span></a>
   </div>
 </li>
@@ -200,8 +243,14 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./page_references.html" class="sidebar-item-text sidebar-link">
+  <a href="./page-references.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./page-tng-quote.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Leading Thought</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -215,13 +264,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./page_x_a1.html" class="sidebar-item-text sidebar-link">
+  <a href="./page-x-a1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">hello world</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./page_x_supplements.html" class="sidebar-item-text sidebar-link">
+  <a href="./page-x-supplements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Supplementary Material</span></span></a>
   </div>
 </li>
@@ -232,15 +281,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#supplementary-material" id="toc-supplementary-material" class="nav-link active" data-scroll-target="#supplementary-material">Supplementary Material</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/kododian/kododian.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Preface</h1>
+<h1 class="title">References</h1>
 </div>
 
 
@@ -257,26 +312,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In 2013, two Kazakh researchers from Al-Farabi Kazakh National University — biologist Vladimir shCherbak and astronomer Maxim Makukov — published a paper titled <em>“The ‘Wow! signal’ of the terrestrial genetic code”</em> in Icarus, a peer-reviewed journal focused on planetary science and Solar System research. In their 15-page paper, spanning over 15,000 words, they claimed to have discovered an embedded signal within the genetic makeup of life on Earth. While their hypothesis drew immediate attention in fringe Reddit communities and even made appearances on television shows, it was swiftly dismissed by the mainstream scientific community. Terms like “numerology” and “bogus science” were among the more charitable labels applied to their work.</p>
-<p>Their decision to condense years of research into a single, dense article led M. Makukov to expand on their ideas through additional channels. He launched a dedicated <a href="https://bioseti.info">website</a>, produced explanatory videos on <a href="https://www.youtube.com/@MaximMakukov">Youtube</a>, and hosted a public <em>Ask Me Anything</em> (AMA) session on <a href="https://www.reddit.com/r/science/comments/2i9tla/science_ama_series_im_maxim_makukov_a_researcher/">Reddit</a> titled <em>“Science AMA Series: I’m Maxim Makukov, a researcher in astrobiology and astrophysics and a co-author of the papers which claim to have identified extraterrestrial signal in the universal genetic code thereby confirming directed panspermia. AMA!”</em>.</p>
-<p>The session quickly turned into a heated debate between supporters and skeptics.</p>
-<p>In a follow-up article, “<em>SETI in vivo: testing the we-are-them hypothesis”</em>, published in the International Journal of Astrobiology in April 2018, the authors addressed critical questions raised after their initial publication and attempted a more cautious, scientifically grounded approach. Despite their efforts, their work was once again met with ridicule, and the broader scientific reception remained dismissive.</p>
-<p>Later that year, Vladimir sh’Cherbak sadly passed away <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and his former student, Maxim, shifted his academic focus toward cosmology.</p>
-<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Check date</p></div></div><p>But <strong>were they right</strong>?</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-crickDirectedPanspermia1973" class="csl-entry" role="listitem">
+Crick, F. H. C., and L. E. Orgel. 1973. <span>“Directed
+Panspermia.”</span> <em>Icarus</em> 19 (3): 341–46. <a href="https://doi.org/10.1016/0019-1035(73)90110-3">https://doi.org/10.1016/0019-1035(73)90110-3</a>.
 </div>
-<div class="callout-body-container">
-<p>The aim of this book is to demonstrate, beyond any reasonable doubt, that sh’Cherbak and Makukov were fundamentally correct in their theory. However, I believe they overlooked a crucial piece of the puzzle that would have made their case easier to explain and defend. It took me twelve years of working in information and data science, along with focused training in mathematics, bioinformatics, and genetic data analysis, to uncover that missing piece.</p>
+<div id="ref-danckwertsSymmetriesGeneticCodedoublets1975" class="csl-entry" role="listitem">
+Danckwerts, H. J., and D. Neubert. 1975. <span>“Symmetries of Genetic
+Code-Doublets.”</span> <em>Journal of Molecular Evolution</em> 5 (4):
+327–32. <a href="https://doi.org/10.1007/BF01732219">https://doi.org/10.1007/BF01732219</a>.
+</div>
+<div id="ref-hasegawaAntisymmetryAminoAcid1980" class="csl-entry" role="listitem">
+Hasegawa, Masami, and Takashi Miyata. 1980. <span>“On the Antisymmetry
+of the Amino Acid Code Table.”</span> <em>Origins of Life</em> 10 (3):
+265–70. <a href="https://doi.org/10.1007/BF00928404">https://doi.org/10.1007/BF00928404</a>.
+</div>
+<div id="ref-jukesArginineEvolutionaryIntruder1973" class="csl-entry" role="listitem">
+Jukes, Thomas H. 1973. <span>“Arginine as an Evolutionary Intruder into
+Protein Synthesis.”</span> <em>Biochemical and Biophysical Research
+Communications</em> 53 (3): 709–14. <a href="https://doi.org/10.1016/0006-291X(73)90151-4">https://doi.org/10.1016/0006-291X(73)90151-4</a>.
+</div>
+<div id="ref-makukovSpaceEthicsTest2014" class="csl-entry" role="listitem">
+Makukov, Maxim A., and Vladimir I. shCherbak. 2014. <span>“Space Ethics
+to Test Directed Panspermia.”</span> <em>Life Sciences in Space
+Research</em> 3 (October): 10–17. <a href="https://doi.org/10.1016/j.lssr.2014.07.003">https://doi.org/10.1016/j.lssr.2014.07.003</a>.
+</div>
+<div id="ref-makukovSETIVivoTesting2018" class="csl-entry" role="listitem">
+———. 2018. <span>“<span>SETI</span> in Vivo: Testing the We-Are-Them
+Hypothesis.”</span> <em>International Journal of Astrobiology</em> 17
+(2): 127–46. <a href="https://doi.org/10.1017/S1473550417000210">https://doi.org/10.1017/S1473550417000210</a>.
+</div>
+<div id="ref-nakamuraSV40DNAMessage1986" class="csl-entry" role="listitem">
+Nakamura, Hiroshi. 1986. <span>“<span>SV40 DNA</span>—<span>A</span>
+Message from <span><span class="math inline"><em>ϵ</em></span></span>
+<span>Eri</span>?”</span> <em>Acta Astronautica</em> 13 (9): 573–78. <a href="https://doi.org/10.1016/0094-5765(86)90059-7">https://doi.org/10.1016/0094-5765(86)90059-7</a>.
+</div>
+<div id="ref-rietmanReviewApplicationGroup2011" class="csl-entry" role="listitem">
+Rietman, Edward A., Robert L. Karp, and Jack A. Tuszynski. 2011.
+<span>“Review and Application of Group Theory to Molecular Systems
+Biology.”</span> <em>Theoretical Biology and Medical Modelling</em> 8
+(1): 21. <a href="https://doi.org/10.1186/1742-4682-8-21">https://doi.org/10.1186/1742-4682-8-21</a>.
+</div>
+<div id="ref-sharovLifeEarth2013" class="csl-entry" role="listitem">
+Sharov, Alexei A., and Richard Gordon. 2013. <span>“Life <span>Before
+Earth</span>.”</span> arXiv. <a href="https://doi.org/10.48550/arXiv.1304.3381">https://doi.org/10.48550/arXiv.1304.3381</a>.
+</div>
+<div id="ref-shcherbakWowSignalTerrestrial2013" class="csl-entry" role="listitem">
+shCherbak, Vladimir I., and Maxim A. Makukov. 2013. <span>“The
+<span>‘<span>Wow</span>! Signal’</span> of the Terrestrial Genetic
+Code.”</span> <em>Icarus</em> 224 (1): 228–42. <a href="https://doi.org/10.1016/j.icarus.2013.02.017">https://doi.org/10.1016/j.icarus.2013.02.017</a>.
+</div>
+<div id="ref-zhaksybayevaStatisticalEstimationRumers1996" class="csl-entry" role="listitem">
+Zhaksybayeva, Olga A. 1996. <span>“Statistical Estimation of Rumer’s
+Transformation of the Universal Genetic Code.”</span> <em>Origins of
+Life and Evolution of the Biosphere</em> 26 (3): 444–45. <a href="https://doi.org/10.1007/BF02459859">https://doi.org/10.1007/BF02459859</a>.
 </div>
 </div>
-</div>
-<p>To the two researchers who led me down this rabbit hole — and made sure I didn’t come back the same.</p>
+<section id="supplementary-material" class="level3">
+<h3 class="anchored" data-anchor-id="supplementary-material">Supplementary Material</h3>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -680,13 +776,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
+      <a href="./page-faq.html" class="pagination-link" aria-label="FAQ">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">FAQ</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./part_i_foundations.html" class="pagination-link" aria-label="Foundations">
-        <span class="nav-page-text">Foundations</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./page-tng-quote.html" class="pagination-link" aria-label="Leading Thought">
+        <span class="nav-page-text">Leading Thought</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -698,7 +794,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/kododian/kododian.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/kododian/kododian.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

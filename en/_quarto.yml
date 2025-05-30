@@ -4,6 +4,8 @@ project:
   resources:
     - styles.css
 
+lang: en
+
 book:
   title: Signal in the Code
   subtitle: A Message Detected in Life's Blueprint
@@ -24,21 +26,23 @@ book:
     #right: "Released May 25, 2025"
   chapters:
     - index.qmd
-    #- page_colophon.qmd
-    - page_preface.qmd
-    - part: part_i_foundations.qmd
+    #- page-colophon.qmd
+    - page-preface.qmd
+    - part: part-i-foundations.qmd
       chapters:
-        - page_demo.qmd
-    - part: part_ii_code.qmd
-    - part: part_iii_signal.qmd
-    - part: part_iv_implications.qmd
-    - part: part_v_questions.qmd
+        - page-introduction.qmd
+        #- page-demo.qmd
+    - part: part-ii-code.qmd
+    - part: part-iii-signal.qmd
+    - part: part-iv-implications.qmd
+    - part: part-v-questions.qmd
       chapters:
-        - page_faq.qmd
-    - page_references.qmd
+        - page-faq.qmd
+    - page-references.qmd
+    - page-tng-quote.qmd
   appendices:
-    - appendix_a1.qmd
-    - appendix_supplements.qmd
+    - page-x-a1.qmd
+    - page-x-supplements.qmd
 
 bibliography: ../shared/refs/references.bib
 
@@ -81,7 +85,9 @@ format:
   #   include-in-header: 
   #     text: |
   #       \usepackage{tocbibind}
-      
 
 execute:
   freeze: auto
+
+filters:
+  - filters/format-numbers.lua
