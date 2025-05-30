@@ -30,7 +30,11 @@ book:
     - page-preface.qmd
     - part: part-i-foundations.qmd
       chapters:
-        - page-introduction.qmd
+        - page-i-introduction.qmd
+        - page-i-why.qmd
+        - page-i-information.qmd
+        - page-i-ascii.qmd
+        - page-i-embedding.qmd
         #- page-demo.qmd
     - part: part-ii-code.qmd
     - part: part-iii-signal.qmd
@@ -69,6 +73,8 @@ format:
     #grid:
     #  margin-width: 350px
     code-link: true
+    number-sections: true
+    number-depth: 2
   # pdf:
   #   subject: "" # TBD
   #   keywords: "" # TBD

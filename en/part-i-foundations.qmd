@@ -1,11 +1,10 @@
 ---
 format:
   html:
-    toc: false
+    title: "Part I: Foundations"
     number-sections: false
     page-layout: full
 ---
-# Foundations {.unnumbered .unlisted}
 
 <br><br><br><br>
 

@@ -1,11 +1,10 @@
 ---
 format:
   html:
-    toc: false
+    title: "Part III: The Signal"
     number-sections: false
     page-layout: full
 ---
-# The Signal {.unnumbered .unlisted}
 
 <div class="quote-page">
 

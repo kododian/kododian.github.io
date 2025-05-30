@@ -1,0 +1,6 @@
+# Basics of Information Theory
+
+- Bits, entropy, and compression  
+- Redundancy vs. noise  
+- Channel capacity and coding schemes  
+- Concepts of “designed” vs. “emergent” signals  

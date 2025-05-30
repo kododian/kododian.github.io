@@ -1,11 +1,10 @@
 ---
 format:
   html:
-    toc: false
+    title: "Part IV: Implications"
     number-sections: false
     page-layout: full
 ---
-# Implications {.unnumbered .unlisted}
 
 <div class="quote-page">
 

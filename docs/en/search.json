@@ -10,218 +10,6 @@
     ]
   },
   {
-    "objectID": "page_preface.html",
-    "href": "page_preface.html",
-    "title": "Preface",
-    "section": "",
-    "text": "In 2013, two Kazakh researchers from Al-Farabi Kazakh National University — biologist Vladimir shCherbak and astronomer Maxim Makukov — published a paper titled “The ‘Wow! signal’ of the terrestrial genetic code” in Icarus, a peer-reviewed journal focused on planetary science and Solar System research. In their 15-page paper, spanning over 15,000 words, they claimed to have discovered an embedded signal within the genetic makeup of life on Earth. While their hypothesis drew immediate attention in fringe Reddit communities and even made appearances on television shows, it was swiftly dismissed by the mainstream scientific community. Terms like “numerology” and “bogus science” were among the more charitable labels applied to their work.\nTheir decision to condense years of research into a single, dense article led M. Makukov to expand on their ideas through additional channels. He launched a dedicated website, produced explanatory videos on Youtube, and hosted a public Ask Me Anything (AMA) session on Reddit titled “Science AMA Series: I’m Maxim Makukov, a researcher in astrobiology and astrophysics and a co-author of the papers which claim to have identified extraterrestrial signal in the universal genetic code thereby confirming directed panspermia. AMA!”.\nThe session quickly turned into a heated debate between supporters and skeptics.\nIn a follow-up article, “SETI in vivo: testing the we-are-them hypothesis”, published in the International Journal of Astrobiology in April 2018, the authors addressed critical questions raised after their initial publication and attempted a more cautious, scientifically grounded approach. Despite their efforts, their work was once again met with ridicule, and the broader scientific reception remained dismissive.\nLater that year, Vladimir sh’Cherbak sadly passed away 1, and his former student, Maxim, shifted his academic focus toward cosmology.\n1 Check dateBut were they right?\n\n\n\n\n\n\nThe aim of this book is to demonstrate, beyond any reasonable doubt, that sh’Cherbak and Makukov were fundamentally correct in their theory. However, I believe they overlooked a crucial piece of the puzzle that would have made their case easier to explain and defend. It took me twelve years of working in information and data science, along with focused training in mathematics, bioinformatics, and genetic data analysis, to uncover that missing piece.\n\n\n\nTo the two researchers who led me down this rabbit hole — and made sure I didn’t come back the same.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "part_i_foundations.html",
-    "href": "part_i_foundations.html",
-    "title": "Foundations",
-    "section": "",
-    "text": "„DNA is like a computer program but far, far more advanced than any software ever created.”\n\n\nBill Gates, The Road Ahead",
-    "crumbs": [
-      "Foundations"
-    ]
-  },
-  {
-    "objectID": "page_demo.html",
-    "href": "page_demo.html",
-    "title": "1  Demo Site",
-    "section": "",
-    "text": "1.1 MathJax - mhchem",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
-    ]
-  },
-  {
-    "objectID": "page_demo.html#r",
-    "href": "page_demo.html#r",
-    "title": "1  Demo Site",
-    "section": "1.2 R",
-    "text": "1.2 R\n1+1",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
-    ]
-  },
-  {
-    "objectID": "page_demo.html#python",
-    "href": "page_demo.html#python",
-    "title": "1  Demo Site",
-    "section": "1.3 Python",
-    "text": "1.3 Python\n\n\n\n\n\n\n\n\nFigure 1.1: Matrix\n\n\n\n\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n\n\n\n\nName\nShort Name\nSymbol\nBlock Sum\nSide Chain Sum\nTotal Sum\n\n\n\n\nSTOP\nStop\n*\n0\n0\n0\n\n\nGlycine\nGly\nG\n74\n1\n75\n\n\nAlanine\nAla\nA\n74\n15\n89\n\n\nSerine\nSer\nS\n74\n31\n105\n\n\nProline\nPro\nP\n74\n41\n115\n\n\nValine\nVal\nV\n74\n43\n117\n\n\nThreonine\nThr\nT\n74\n45\n119\n\n\nCysteine\nCys\nC\n74\n47\n121\n\n\nLeucine\nLeu\nL\n74\n57\n131\n\n\nIsoleucine\nIle\nI\n74\n57\n131\n\n\nAsparagine\nAsn\nN\n74\n58\n132\n\n\nAspartic Acid\nAsp\nD\n74\n59\n133\n\n\nLysine\nLys\nK\n74\n72\n146\n\n\nGlutamine\nGln\nQ\n74\n72\n146\n\n\nGlutamic Acid\nGlu\nE\n74\n73\n147\n\n\nMethionine/START\nMet\nM\n74\n75\n149\n\n\nHistidine\nHis\nH\n74\n81\n155\n\n\nPhenylalanine\nPhe\nF\n74\n91\n165\n\n\nArginine\nArg\nR\n74\n100\n174\n\n\nTyrosine\nTyr\nY\n74\n107\n181\n\n\nTryptophane\nTrp\nW\n74\n130\n204\n\n\n\n\n\n\n\n\n\n\n\nExpand for a list of Genetic Code variants\n\n\n\n\n\nSource\n\n\n\n\n\nId\nSpecies\n\n\n\n\nGC01\nStandard Code\n\n\nGC02\nVertebrate Mitochondrial Code\n\n\nGC03\nYeast Mitochondrial Code\n\n\nGC04\nMold, Protozoan, Coelenterate Mitochondrial Code\n\n\nGC05\nInvertebrate Mitochondrial Code\n\n\nGC06\nCiliate, Dasycladacean and Hexamita Nuclear Code\n\n\nGC07\nDeleted Kinetoplast Code\n\n\nGC09\nEchinoderm and Flatworm Mitochondrial Code\n\n\nGC10\nEuplotid Nuclear Code\n\n\nGC11\nBacterial, Archaeal and Plant Plastid Code\n\n\nGC12\nAlternative Yeast Nuclear Code\n\n\nGC13\nAscidian Mitochondrial Code\n\n\nGC14\nAlternative Flatworm Mitochondrial Code\n\n\nGC15\nBlepharisma Nuclear Code\n\n\nGC16\nChlorophycean Mitochondrial Code\n\n\nGC21\nTrematode Mitochondrial Code\n\n\nGC22\nScenedesmus Obliquus Mitochondrial Code\n\n\nGC23\nThraustochytrium Mitochondrial Code\n\n\nGC24\nPterobranchia Mitochondrial Code\n\n\nGC25\nCandidate Division SR1 and Gracilibacteria Code\n\n\nGC26\nPachysolen Tannophilus Nuclear Code\n\n\nGC27\nKaryorelict Nuclear Code\n\n\nGC28\nCondylostoma Nuclear Code\n\n\nGC29\nMesodinium Nuclear Code\n\n\nGC30\nPeritrich Nuclear Code\n\n\nGC31\nBlastocrithidia Nuclear Code\n\n\nGC32\nBalanophoraceae Plastid Code\n\n\nGC33\nCephalodiscidae Mitochondrial Code\n\n\nGC34\nEnterosoma Code\n\n\nGC35\nPeptacetobacter Code\n\n\nGC36\nAnaerococcus and Onthovivens Code\n\n\nGC37\nAbsconditabacterales Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCodon\nAmino Acids\nNucleon BL\nNucleon SC\nNucleon Total\n\n\n\n\nAA\nN, K\n74\n58\n132\n\n\nAC\nT\n74\n45\n119\n\n\nAG\nS, R\n74\n31\n105\n\n\nAT\nI, M\n74\n57\n131\n\n\nCA\nH, Q\n74\n81\n155\n\n\nCC\nP\n74\n41\n115\n\n\nCG\nR\n74\n100\n174\n\n\nCT\nL\n74\n57\n131\n\n\nGA\nD, E\n74\n59\n133\n\n\nGC\nA\n74\n15\n89\n\n\nGG\nG\n74\n1\n75\n\n\nGT\nV\n74\n43\n117\n\n\nTA\nY, *\n74\n107\n181\n\n\nTC\nS\n74\n31\n105\n\n\nTG\nC, *, W\n74\n47\n121\n\n\nTT\nF, L\n74\n91\n165\n\n\n\nCodon assignments for the Standard Code, contracted by the first two nucleotide bases.",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
-    ]
-  },
-  {
-    "objectID": "page_demo.html#running-code",
-    "href": "page_demo.html#running-code",
-    "title": "1  Demo Site",
-    "section": "1.4 Running Code",
-    "text": "1.4 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
-    ]
-  },
-  {
-    "objectID": "page_demo.html#ascii-table",
-    "href": "page_demo.html#ascii-table",
-    "title": "1  Demo Site",
-    "section": "1.5 ASCII Table",
-    "text": "1.5 ASCII Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nA\nB\nC\nD\nE\nF\n\n\n\n\n0\n⌘\n☺\n☻\n♥\n♦\n♣\n♠\n•\n◘\n○\n◙\n♂\n♀\n♪\n♫\n☼\n\n\n1\n►\n◄\n↕\n!!\n¶\n§\n▬\n↨\n↑\n↓\n→\n←\n∟\n↔︎\n▲\n▼\n\n\n2\n\n!\n”\n#\n$\n%\n&\n’\n(\n)\n*\n+\n,\n-\n.\n/\n\n\n3\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n&lt;\n=\n&gt;\n?\n\n\n4\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\n\n\n5\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\\n]\n^\n_\n\n\n6\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\n\n\n7\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n⌂\n\n\n8\nÇ\nü\né\nâ\nä\nà\nå\nç\nê\në\nè\nï\nî\nì\nÄ\nÅ\n\n\n9\nÉ\næ\nÆ\nô\nö\nò\nû\nù\nÿ\nÖ\nÜ\n¢\n£\n¥\n₧\nƒ\n\n\nA\ná\ní\nó\nú\nñ\nÑ\nª\nº\n¿\n⌐\n¬\n½\n¼\n¡\n«\n»\n\n\nB\n░\n▒\n▓\n│\n┤\n╡\n╢\n╖\n╕\n╣\n║\n╗\n╝\n╜\n╛\n┐\n\n\nC\n└\n┴\n┬\n├\n─\n┼\n╞\n╟\n╚\n╔\n╩\n╦\n╠\n═\n╬\n╧\n\n\nD\n╨\n╤\n╥\n╙\n╘\n╒\n╓\n╫\n╪\n┘\n┌\n█\n▄\n▌\n▐\n▀\n\n\nE\nα\nß\nΓ\nπ\nΣ\nσ\nµ\nτ\nΦ\nΘ\nΩ\nδ\n∞\nφ\nε\n∩\n\n\nF\n≡\n±\n≥\n≤\n⌠\n⌡\n÷\n≈\n°\n∙\n⋅\n√\nⁿ\n²\n■\n↗\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\nFigure 1.2: A flowchart.\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nrun\n\nrun\n\n\n\nintr\n\nintr\n\n\n\nrun--intr\n\n\n\n\nkernel\n\nkernel\n\n\n\nrun--kernel\n\n\n\n\nrunbl\n\nrunbl\n\n\n\nintr--runbl\n\n\n\n\nrunbl--run\n\n\n\n\nzombie\n\nzombie\n\n\n\nkernel--zombie\n\n\n\n\nsleep\n\nsleep\n\n\n\nkernel--sleep\n\n\n\n\nrunmem\n\nrunmem\n\n\n\nkernel--runmem\n\n\n\n\nsleep--runmem\n\n\n\n\nswap\n\nswap\n\n\n\nsleep--swap\n\n\n\n\nrunswap\n\nrunswap\n\n\n\nswap--runswap\n\n\n\n\nrunswap--runmem\n\n\n\n\nnew\n\nnew\n\n\n\nrunswap--new\n\n\n\n\nnew--runmem\n\n\n\n\n\nA full width figure.\n\n\n\n\n\n\n\n\nquadrantChart\n    title Reach and engagement of campaigns\n    x-axis Low Reach --&gt; High Reach\n    y-axis Low Engagement --&gt; High Engagement\n    quadrant-1 We should expand\n    quadrant-2 Need to promote\n    quadrant-3 Re-evaluate\n    quadrant-4 May be improved\n    Campaign A: [0.3, 0.6]\n    Campaign B: [0.45, 0.23]\n    Campaign C: [0.57, 0.69]\n    Campaign D: [0.78, 0.34]\n    Campaign E: [0.40, 0.34]\n    Campaign F: [0.35, 0.78]\n\n\n\n\n\n\n\\[\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n\\otimes\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n=\n\\begin{bmatrix}\nGG & GA & AG & AA \\\\\nGC & GT & AC & AT \\\\\nCG & CA & TG & TA \\\\\nCC & CT & TC & TT\n\\end{bmatrix}\n\\]",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
-    ]
-  },
-  {
-    "objectID": "page_demo.html#d-molecule",
-    "href": "page_demo.html#d-molecule",
-    "title": "1  Demo Site",
-    "section": "1.6 2D Molecule",
-    "text": "1.6 2D Molecule\n\n\n\n\n\n\n\n\nFigure 1.3\n\n\n\n\n\nThis is a span that has the class aside which places it in the margin without a footnote number.\nAs outlined by Crick and Orgel (1973), pp. 16-18, we find this below. Also by referencing this, we end up there1, as outlined in Figure 1.2. Also refer to Figure 1.1 for more details.\n\n\n\n\nCrick, F. H. C., and L. E. Orgel. 1973. “Directed Panspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n1 Here is the footnote.",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
-    ]
-  },
-  {
-    "objectID": "part_ii_code.html",
-    "href": "part_ii_code.html",
-    "title": "The Code of Life",
-    "section": "",
-    "text": "„Life writes in code. We’re only beginning to read.”\n\n\nThe Author",
-    "crumbs": [
-      "The Code of Life"
-    ]
-  },
-  {
-    "objectID": "part_iii_signal.html",
-    "href": "part_iii_signal.html",
-    "title": "The Signal",
-    "section": "",
-    "text": "„Information is the resolution of uncertainty.”\n\n\nClaude Shannon",
-    "crumbs": [
-      "The Signal"
-    ]
-  },
-  {
-    "objectID": "part_iv_implications.html",
-    "href": "part_iv_implications.html",
-    "title": "Implications",
-    "section": "",
-    "text": "„The question is not whether a signal exists — but whether we are prepared to recognize it.”\n\n\nThe Author",
-    "crumbs": [
-      "Implications"
-    ]
-  },
-  {
-    "objectID": "part_v_questions.html",
-    "href": "part_v_questions.html",
-    "title": "Questions",
-    "section": "",
-    "text": "„Answers are easy. Asking the right question is everything.”\n\n\nThe Author",
-    "crumbs": [
-      "Questions"
-    ]
-  },
-  {
-    "objectID": "page_faq.html",
-    "href": "page_faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "Are we serious?\n\n\n\n\n\nYes\n\n\n\n\n\n\n\n\n\nWho is the main contributor of this project?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nHas research in this area been conducted elsewhere?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments for a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments against a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nEvolution did it, didn’t it?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-    "crumbs": [
-      "Questions",
-      "FAQ"
-    ]
-  },
-  {
-    "objectID": "page_references.html",
-    "href": "page_references.html",
-    "title": "References",
-    "section": "",
-    "text": "Crick, F. H. C., and L. E. Orgel. 1973. “Directed\nPanspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n\n\n\nSupplementary Material",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
-    "objectID": "appendix_a1.html",
-    "href": "appendix_a1.html",
-    "title": "Appendix A — hello world",
-    "section": "",
-    "text": "B Appendix 1\nhere we go…\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>hello world</span>"
-    ]
-  },
-  {
-    "objectID": "appendix_supplements.html",
-    "href": "appendix_supplements.html",
-    "title": "Appendix B — Supplementary Material",
-    "section": "",
-    "text": "lorem ipsum…",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Supplementary Material</span>"
-    ]
-  },
-  {
-    "objectID": "page_introduction.html",
-    "href": "page_introduction.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "here we go…",
-    "crumbs": [
-      "Foundations",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "page_x_a1.html",
-    "href": "page_x_a1.html",
-    "title": "Appendix A — hello world",
-    "section": "",
-    "text": "B Appendix 1\nhere we go…\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>hello world</span>"
-    ]
-  },
-  {
-    "objectID": "page_x_supplements.html",
-    "href": "page_x_supplements.html",
-    "title": "Appendix B — Supplementary Material",
-    "section": "",
-    "text": "lorem ipsum…",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Supplementary Material</span>"
-    ]
-  },
-  {
-    "objectID": "page-tng-quote.html",
-    "href": "page-tng-quote.html",
-    "title": "Final Thought",
-    "section": "",
-    "text": "“You’re wondering who we are, why we have done this, how it has come that I stand before you, the image of a being from so long ago. Life evolved on my planet before all others in this part of the galaxy. We left our world, explored the stars, and found none like ourselves. Our civilisation thrived for ages, but what is the life of one race, compared to the vast stretches of cosmic time? We knew that one day we would be gone, that nothing of us would survive. So, we left you. Our scientists seeded the primordial oceans of many worlds, where life was in its infancy. The seed codes directed your evolution toward a physical form resembling ours. This body you see before you, which is, of course, shaped as yours is shaped, for you are the end result. The seed codes also contained this message, which we scattered in fragments on many different worlds. It was our hope that you would have to come together in fellowship and companionship to hear this message. And if you can see and hear me, our hope has been fulfilled. You are a monument, not to our greatness, but to our existence. That was our wish, that you too would know life, and would keep alive our memory. There is something of us in each of you, and so, something of you in each other. Remember us.”\n\n\nHumanoid in “The Chase”, Star Trek: The Next Generation",
-    "crumbs": [
-      "Final Thought"
-    ]
-  },
-  {
     "objectID": "page-preface.html",
     "href": "page-preface.html",
     "title": "Preface",
@@ -232,80 +20,108 @@
     ]
   },
   {
-    "objectID": "page-introduction.html",
-    "href": "page-introduction.html",
+    "objectID": "part-i-foundations.html",
+    "href": "part-i-foundations.html",
+    "title": "Part I: Foundations",
+    "section": "",
+    "text": "„DNA is like a computer program but far, far more advanced than any software ever created.”\n\n\nBill Gates, The Road Ahead",
+    "crumbs": [
+      "Part I: Foundations"
+    ]
+  },
+  {
+    "objectID": "page-i-introduction.html",
+    "href": "page-i-introduction.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "here we go…",
+    "text": "Scope and motivation of the book\n\nA brief history of the genetic code and information theory\n\nWhy now? Modern tools and renewed interest in code-as-signal",
     "crumbs": [
-      "part-i_foundations.qmd",
+      "Part I: Foundations",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "page-demo.html",
-    "href": "page-demo.html",
-    "title": "2  Demo Site",
+    "objectID": "page-i-why.html",
+    "href": "page-i-why.html",
+    "title": "2  Why the Question Matters",
     "section": "",
-    "text": "2.1 MathJax - mhchem",
+    "text": "The philosophical and scientific importance\n\nPast analogies: Rosetta Stone, SETI, cryptography\n\nWhat it would mean if a signal were embedded in life’s code",
     "crumbs": [
-      "part-i_foundations.qmd",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Demo Site</span>"
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why the Question Matters</span>"
     ]
   },
   {
-    "objectID": "page-demo.html#r",
-    "href": "page-demo.html#r",
-    "title": "2  Demo Site",
-    "section": "2.2 R",
-    "text": "2.2 R\n1+1",
+    "objectID": "page-i-information.html",
+    "href": "page-i-information.html",
+    "title": "3  Basics of Information Theory",
+    "section": "",
+    "text": "Bits, entropy, and compression\n\nRedundancy vs. noise\n\nChannel capacity and coding schemes\n\nConcepts of “designed” vs. “emergent” signals",
     "crumbs": [
-      "part-i_foundations.qmd",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Demo Site</span>"
+      "Part I: Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Basics of Information Theory</span>"
     ]
   },
   {
-    "objectID": "page-demo.html#python",
-    "href": "page-demo.html#python",
-    "title": "2  Demo Site",
-    "section": "2.3 Python",
-    "text": "2.3 Python\n\n\n\n\n\n\n\n\nFigure 2.1: Matrix\n\n\n\n\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n\n\n\n\nName\nShort Name\nSymbol\nBlock Sum\nSide Chain Sum\nTotal Sum\n\n\n\n\nSTOP\nStop\n*\n0\n0\n0\n\n\nGlycine\nGly\nG\n74\n1\n75\n\n\nAlanine\nAla\nA\n74\n15\n89\n\n\nSerine\nSer\nS\n74\n31\n105\n\n\nProline\nPro\nP\n74\n41\n115\n\n\nValine\nVal\nV\n74\n43\n117\n\n\nThreonine\nThr\nT\n74\n45\n119\n\n\nCysteine\nCys\nC\n74\n47\n121\n\n\nLeucine\nLeu\nL\n74\n57\n131\n\n\nIsoleucine\nIle\nI\n74\n57\n131\n\n\nAsparagine\nAsn\nN\n74\n58\n132\n\n\nAspartic Acid\nAsp\nD\n74\n59\n133\n\n\nLysine\nLys\nK\n74\n72\n146\n\n\nGlutamine\nGln\nQ\n74\n72\n146\n\n\nGlutamic Acid\nGlu\nE\n74\n73\n147\n\n\nMethionine/START\nMet\nM\n74\n75\n149\n\n\nHistidine\nHis\nH\n74\n81\n155\n\n\nPhenylalanine\nPhe\nF\n74\n91\n165\n\n\nArginine\nArg\nR\n74\n100\n174\n\n\nTyrosine\nTyr\nY\n74\n107\n181\n\n\nTryptophane\nTrp\nW\n74\n130\n204\n\n\n\n\n\n\n\n\n\n\n\nExpand for a list of Genetic Code variants\n\n\n\n\n\nSource\n\n\n\n\n\nId\nSpecies\n\n\n\n\nGC01\nStandard Code\n\n\nGC02\nVertebrate Mitochondrial Code\n\n\nGC03\nYeast Mitochondrial Code\n\n\nGC04\nMold, Protozoan, Coelenterate Mitochondrial Code\n\n\nGC05\nInvertebrate Mitochondrial Code\n\n\nGC06\nCiliate, Dasycladacean and Hexamita Nuclear Code\n\n\nGC07\nDeleted Kinetoplast Code\n\n\nGC09\nEchinoderm and Flatworm Mitochondrial Code\n\n\nGC10\nEuplotid Nuclear Code\n\n\nGC11\nBacterial, Archaeal and Plant Plastid Code\n\n\nGC12\nAlternative Yeast Nuclear Code\n\n\nGC13\nAscidian Mitochondrial Code\n\n\nGC14\nAlternative Flatworm Mitochondrial Code\n\n\nGC15\nBlepharisma Nuclear Code\n\n\nGC16\nChlorophycean Mitochondrial Code\n\n\nGC21\nTrematode Mitochondrial Code\n\n\nGC22\nScenedesmus Obliquus Mitochondrial Code\n\n\nGC23\nThraustochytrium Mitochondrial Code\n\n\nGC24\nPterobranchia Mitochondrial Code\n\n\nGC25\nCandidate Division SR1 and Gracilibacteria Code\n\n\nGC26\nPachysolen Tannophilus Nuclear Code\n\n\nGC27\nKaryorelict Nuclear Code\n\n\nGC28\nCondylostoma Nuclear Code\n\n\nGC29\nMesodinium Nuclear Code\n\n\nGC30\nPeritrich Nuclear Code\n\n\nGC31\nBlastocrithidia Nuclear Code\n\n\nGC32\nBalanophoraceae Plastid Code\n\n\nGC33\nCephalodiscidae Mitochondrial Code\n\n\nGC34\nEnterosoma Code\n\n\nGC35\nPeptacetobacter Code\n\n\nGC36\nAnaerococcus and Onthovivens Code\n\n\nGC37\nAbsconditabacterales Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCodon\nAmino Acids\nNucleon BL\nNucleon SC\nNucleon Total\n\n\n\n\nAA\nN, K\n74\n58\n132\n\n\nAC\nT\n74\n45\n119\n\n\nAG\nS, R\n74\n31\n105\n\n\nAT\nI, M\n74\n57\n131\n\n\nCA\nH, Q\n74\n81\n155\n\n\nCC\nP\n74\n41\n115\n\n\nCG\nR\n74\n100\n174\n\n\nCT\nL\n74\n57\n131\n\n\nGA\nD, E\n74\n59\n133\n\n\nGC\nA\n74\n15\n89\n\n\nGG\nG\n74\n1\n75\n\n\nGT\nV\n74\n43\n117\n\n\nTA\nY, *\n74\n107\n181\n\n\nTC\nS\n74\n31\n105\n\n\nTG\nC, *, W\n74\n47\n121\n\n\nTT\nF, L\n74\n91\n165\n\n\n\nCodon assignments for the Standard Code, contracted by the first two nucleotide bases.",
+    "objectID": "page-i-ascii.html",
+    "href": "page-i-ascii.html",
+    "title": "4  A Human-Made Signal System",
+    "section": "",
+    "text": "What is ASCII and why it’s a canonical example",
     "crumbs": [
-      "part-i_foundations.qmd",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Demo Site</span>"
+      "Part I: Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>A Human-Made Signal System</span>"
     ]
   },
   {
-    "objectID": "page-demo.html#running-code",
-    "href": "page-demo.html#running-code",
-    "title": "2  Demo Site",
-    "section": "2.4 Running Code",
-    "text": "2.4 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:",
+    "objectID": "page-i-embedding.html",
+    "href": "page-i-embedding.html",
+    "title": "5  How to Embed a Signal",
+    "section": "",
+    "text": "Embed a signal in a mapping table (in general)\nEmbed a signal in ASCII\nEmbed a signal in the Genetic Code Table\nMultipurpose encoding and symbolic layers\n\nExamples of embedded patterns and redundancies\n\nLessons for biological code interpretation",
     "crumbs": [
-      "part-i_foundations.qmd",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Demo Site</span>"
+      "Part I: Foundations",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How to Embed a Signal</span>"
     ]
   },
   {
-    "objectID": "page-demo.html#ascii-table",
-    "href": "page-demo.html#ascii-table",
-    "title": "2  Demo Site",
-    "section": "2.5 ASCII Table",
-    "text": "2.5 ASCII Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nA\nB\nC\nD\nE\nF\n\n\n\n\n0\n⌘\n☺\n☻\n♥\n♦\n♣\n♠\n•\n◘\n○\n◙\n♂\n♀\n♪\n♫\n☼\n\n\n1\n►\n◄\n↕\n!!\n¶\n§\n▬\n↨\n↑\n↓\n→\n←\n∟\n↔︎\n▲\n▼\n\n\n2\n\n!\n”\n#\n$\n%\n&\n’\n(\n)\n*\n+\n,\n-\n.\n/\n\n\n3\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n&lt;\n=\n&gt;\n?\n\n\n4\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\n\n\n5\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\\n]\n^\n_\n\n\n6\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\n\n\n7\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n⌂\n\n\n8\nÇ\nü\né\nâ\nä\nà\nå\nç\nê\në\nè\nï\nî\nì\nÄ\nÅ\n\n\n9\nÉ\næ\nÆ\nô\nö\nò\nû\nù\nÿ\nÖ\nÜ\n¢\n£\n¥\n₧\nƒ\n\n\nA\ná\ní\nó\nú\nñ\nÑ\nª\nº\n¿\n⌐\n¬\n½\n¼\n¡\n«\n»\n\n\nB\n░\n▒\n▓\n│\n┤\n╡\n╢\n╖\n╕\n╣\n║\n╗\n╝\n╜\n╛\n┐\n\n\nC\n└\n┴\n┬\n├\n─\n┼\n╞\n╟\n╚\n╔\n╩\n╦\n╠\n═\n╬\n╧\n\n\nD\n╨\n╤\n╥\n╙\n╘\n╒\n╓\n╫\n╪\n┘\n┌\n█\n▄\n▌\n▐\n▀\n\n\nE\nα\nß\nΓ\nπ\nΣ\nσ\nµ\nτ\nΦ\nΘ\nΩ\nδ\n∞\nφ\nε\n∩\n\n\nF\n≡\n±\n≥\n≤\n⌠\n⌡\n÷\n≈\n°\n∙\n⋅\n√\nⁿ\n²\n■\n↗\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\nFigure 2.2: A flowchart.\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nrun\n\nrun\n\n\n\nintr\n\nintr\n\n\n\nrun--intr\n\n\n\n\nkernel\n\nkernel\n\n\n\nrun--kernel\n\n\n\n\nrunbl\n\nrunbl\n\n\n\nintr--runbl\n\n\n\n\nrunbl--run\n\n\n\n\nzombie\n\nzombie\n\n\n\nkernel--zombie\n\n\n\n\nsleep\n\nsleep\n\n\n\nkernel--sleep\n\n\n\n\nrunmem\n\nrunmem\n\n\n\nkernel--runmem\n\n\n\n\nsleep--runmem\n\n\n\n\nswap\n\nswap\n\n\n\nsleep--swap\n\n\n\n\nrunswap\n\nrunswap\n\n\n\nswap--runswap\n\n\n\n\nrunswap--runmem\n\n\n\n\nnew\n\nnew\n\n\n\nrunswap--new\n\n\n\n\nnew--runmem\n\n\n\n\n\nA full width figure.\n\n\n\n\n\n\n\n\nquadrantChart\n    title Reach and engagement of campaigns\n    x-axis Low Reach --&gt; High Reach\n    y-axis Low Engagement --&gt; High Engagement\n    quadrant-1 We should expand\n    quadrant-2 Need to promote\n    quadrant-3 Re-evaluate\n    quadrant-4 May be improved\n    Campaign A: [0.3, 0.6]\n    Campaign B: [0.45, 0.23]\n    Campaign C: [0.57, 0.69]\n    Campaign D: [0.78, 0.34]\n    Campaign E: [0.40, 0.34]\n    Campaign F: [0.35, 0.78]\n\n\n\n\n\n\n\\[\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n\\otimes\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n=\n\\begin{bmatrix}\nGG & GA & AG & AA \\\\\nGC & GT & AC & AT \\\\\nCG & CA & TG & TA \\\\\nCC & CT & TC & TT\n\\end{bmatrix}\n\\]",
+    "objectID": "part-ii-code.html",
+    "href": "part-ii-code.html",
+    "title": "Part II: The Code of Life",
+    "section": "",
+    "text": "„Life writes in code. We’re only beginning to read.”\n\n\nThe Author",
     "crumbs": [
-      "part-i_foundations.qmd",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Demo Site</span>"
+      "Part II: The Code of Life"
     ]
   },
   {
-    "objectID": "page-demo.html#d-molecule",
-    "href": "page-demo.html#d-molecule",
-    "title": "2  Demo Site",
-    "section": "2.6 2D Molecule",
-    "text": "2.6 2D Molecule\n\n\n\n\n\n\n\n\nFigure 2.3\n\n\n\n\n\nThis is a span that has the class aside which places it in the margin without a footnote number.\nAs outlined by Crick and Orgel (1973), pp. 16-18, we find this below. Also by referencing this, we end up there1, as outlined in Figure 2.2. Also refer to Figure 2.1 for more details.\n\n\n\n\nCrick, F. H. C., and L. E. Orgel. 1973. “Directed Panspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n1 Here is the footnote.",
+    "objectID": "part-iii-signal.html",
+    "href": "part-iii-signal.html",
+    "title": "Part III: The Signal",
+    "section": "",
+    "text": "„Information is the resolution of uncertainty.”\n\n\nClaude Shannon",
     "crumbs": [
-      "part-i_foundations.qmd",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Demo Site</span>"
+      "Part III: The Signal"
+    ]
+  },
+  {
+    "objectID": "part-iv-implications.html",
+    "href": "part-iv-implications.html",
+    "title": "Part IV: Implications",
+    "section": "",
+    "text": "„The question is not whether a signal exists — but whether we are prepared to recognize it.”\n\n\nThe Author",
+    "crumbs": [
+      "Part IV: Implications"
+    ]
+  },
+  {
+    "objectID": "part-v-questions.html",
+    "href": "part-v-questions.html",
+    "title": "Part V: Questions",
+    "section": "",
+    "text": "„Answers are easy. Asking the right question is everything.”\n\n\nThe Author",
+    "crumbs": [
+      "Part V: Questions"
     ]
   },
   {
@@ -315,7 +131,7 @@
     "section": "",
     "text": "Are we serious?\n\n\n\n\n\nYes\n\n\n\n\n\n\n\n\n\nWho is the main contributor of this project?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nHas research in this area been conducted elsewhere?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments for a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments against a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nEvolution did it, didn’t it?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "crumbs": [
-      "Questions",
+      "Part V: Questions",
       "FAQ"
     ]
   },
@@ -324,9 +140,19 @@
     "href": "page-references.html",
     "title": "References",
     "section": "",
-    "text": "Crick, F. H. C., and L. E. Orgel. 1973. “Directed\nPanspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n\n\nDanckwerts, H. J., and D. Neubert. 1975. “Symmetries of Genetic\nCode-Doublets.” Journal of Molecular Evolution 5 (4):\n327–32. https://doi.org/10.1007/BF01732219.\n\n\nHasegawa, Masami, and Takashi Miyata. 1980. “On the Antisymmetry\nof the Amino Acid Code Table.” Origins of Life 10 (3):\n265–70. https://doi.org/10.1007/BF00928404.\n\n\nJukes, Thomas H. 1973. “Arginine as an Evolutionary Intruder into\nProtein Synthesis.” Biochemical and Biophysical Research\nCommunications 53 (3): 709–14. https://doi.org/10.1016/0006-291X(73)90151-4.\n\n\nMakukov, Maxim A., and Vladimir I. shCherbak. 2014. “Space Ethics\nto Test Directed Panspermia.” Life Sciences in Space\nResearch 3 (October): 10–17. https://doi.org/10.1016/j.lssr.2014.07.003.\n\n\n———. 2018. “SETI in Vivo: Testing the We-Are-Them\nHypothesis.” International Journal of Astrobiology 17\n(2): 127–46. https://doi.org/10.1017/S1473550417000210.\n\n\nNakamura, Hiroshi. 1986. “SV40 DNA—A\nMessage from ϵ\nEri?” Acta Astronautica 13 (9): 573–78. https://doi.org/10.1016/0094-5765(86)90059-7.\n\n\nRietman, Edward A., Robert L. Karp, and Jack A. Tuszynski. 2011.\n“Review and Application of Group Theory to Molecular Systems\nBiology.” Theoretical Biology and Medical Modelling 8\n(1): 21. https://doi.org/10.1186/1742-4682-8-21.\n\n\nSharov, Alexei A., and Richard Gordon. 2013. “Life Before\nEarth.” arXiv. https://doi.org/10.48550/arXiv.1304.3381.\n\n\nshCherbak, Vladimir I., and Maxim A. Makukov. 2013. “The\n‘Wow! Signal’ of the Terrestrial Genetic\nCode.” Icarus 224 (1): 228–42. https://doi.org/10.1016/j.icarus.2013.02.017.\n\n\nZhaksybayeva, Olga A. 1996. “Statistical Estimation of Rumer’s\nTransformation of the Universal Genetic Code.” Origins of\nLife and Evolution of the Biosphere 26 (3): 444–45. https://doi.org/10.1007/BF02459859.\n\n\n\nSupplementary Material",
+    "text": "Crick, F. H. C., and L. E. Orgel. 1973. “Directed Panspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n\n\nDanckwerts, H. J., and D. Neubert. 1975. “Symmetries of Genetic Code-Doublets.” Journal of Molecular Evolution 5 (4): 327–32. https://doi.org/10.1007/BF01732219.\n\n\nHasegawa, Masami, and Takashi Miyata. 1980. “On the Antisymmetry of the Amino Acid Code Table.” Origins of Life 10 (3): 265–70. https://doi.org/10.1007/BF00928404.\n\n\nJukes, Thomas H. 1973. “Arginine as an Evolutionary Intruder into Protein Synthesis.” Biochemical and Biophysical Research Communications 53 (3): 709–14. https://doi.org/10.1016/0006-291X(73)90151-4.\n\n\nMakukov, Maxim A., and Vladimir I. shCherbak. 2014. “Space Ethics to Test Directed Panspermia.” Life Sciences in Space Research 3 (October): 10–17. https://doi.org/10.1016/j.lssr.2014.07.003.\n\n\n———. 2018. “SETI in Vivo: Testing the We-Are-Them Hypothesis.” International Journal of Astrobiology 17 (2): 127–46. https://doi.org/10.1017/S1473550417000210.\n\n\nNakamura, Hiroshi. 1986. “SV40 DNA—A Message from \\(\\epsilon\\) Eri?” Acta Astronautica 13 (9): 573–78. https://doi.org/10.1016/0094-5765(86)90059-7.\n\n\nRietman, Edward A., Robert L. Karp, and Jack A. Tuszynski. 2011. “Review and Application of Group Theory to Molecular Systems Biology.” Theoretical Biology and Medical Modelling 8 (1): 21. https://doi.org/10.1186/1742-4682-8-21.\n\n\nSharov, Alexei A., and Richard Gordon. 2013. “Life Before Earth.” arXiv. https://doi.org/10.48550/arXiv.1304.3381.\n\n\nshCherbak, Vladimir I., and Maxim A. Makukov. 2013. “The ‘Wow! Signal’ of the Terrestrial Genetic Code.” Icarus 224 (1): 228–42. https://doi.org/10.1016/j.icarus.2013.02.017.\n\n\nZhaksybayeva, Olga A. 1996. “Statistical Estimation of Rumer’s Transformation of the Universal Genetic Code.” Origins of Life and Evolution of the Biosphere 26 (3): 444–45. https://doi.org/10.1007/BF02459859.\n\n\n\nSupplementary Material",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "page-tng-quote.html",
+    "href": "page-tng-quote.html",
+    "title": "Final Thought",
+    "section": "",
+    "text": "“You’re wondering who we are, why we have done this, how it has come that I stand before you, the image of a being from so long ago. Life evolved on my planet before all others in this part of the galaxy. We left our world, explored the stars, and found none like ourselves. Our civilisation thrived for ages, but what is the life of one race, compared to the vast stretches of cosmic time? We knew that one day we would be gone, that nothing of us would survive. So, we left you. Our scientists seeded the primordial oceans of many worlds, where life was in its infancy. The seed codes directed your evolution toward a physical form resembling ours. This body you see before you, which is, of course, shaped as yours is shaped, for you are the end result. The seed codes also contained this message, which we scattered in fragments on many different worlds. It was our hope that you would have to come together in fellowship and companionship to hear this message. And if you can see and hear me, our hope has been fulfilled. You are a monument, not to our greatness, but to our existence. That was our wish, that you too would know life, and would keep alive our memory. There is something of us in each of you, and so, something of you in each other. Remember us.”\n\n\nHumanoid in “The Chase”, Star Trek: The Next Generation",
+    "crumbs": [
+      "Final Thought"
     ]
   },
   {
@@ -349,26 +175,6 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Supplementary Material</span>"
-    ]
-  },
-  {
-    "objectID": "part-i-foundations.html",
-    "href": "part-i-foundations.html",
-    "title": "Foundations",
-    "section": "",
-    "text": "„DNA is like a computer program but far, far more advanced than any software ever created.”\n\n\nBill Gates, The Road Ahead",
-    "crumbs": [
-      "Foundations"
-    ]
-  },
-  {
-    "objectID": "part-v-questions.html",
-    "href": "part-v-questions.html",
-    "title": "Questions",
-    "section": "",
-    "text": "„Answers are easy. Asking the right question is everything.”\n\n\nThe Author",
-    "crumbs": [
-      "Questions"
     ]
   }
 ]

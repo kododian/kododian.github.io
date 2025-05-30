@@ -1,11 +1,10 @@
 ---
 format:
   html:
-    toc: false
+    title: "Part V: Questions"
     number-sections: false
     page-layout: full
 ---
-# Questions {.unnumbered .unlisted}
 
 <div class="quote-page">
 
