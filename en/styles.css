@@ -1,0 +1,18 @@
+/* css styles */
+.quote-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+    margin-top: 5rem;
+  }
+
+  .quote {
+    font-family: "Noto Serif"
+  }

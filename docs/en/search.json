@@ -1,0 +1,181 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Signal in the Code",
+    "section": "",
+    "text": "Welcome\n\n\n\n\n\n\nPurpose & Goal\n\n\n\nThe Kodonian Project seeks to demonstrate that the Universal Genetic Code contains an embedded signal—an intentional, structured message—suggesting a deeper informational or even extraterrestrial origin behind the blueprint of life on Earth.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "page_preface.html",
+    "href": "page_preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "here we go…\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "part_i_foundations.html",
+    "href": "part_i_foundations.html",
+    "title": "Foundations",
+    "section": "",
+    "text": "„DNA is like a computer program but far, far more advanced than any software ever created.”\n\n\nBill Gates, The Road Ahead",
+    "crumbs": [
+      "Foundations"
+    ]
+  },
+  {
+    "objectID": "page_demo.html",
+    "href": "page_demo.html",
+    "title": "1  Demo Site",
+    "section": "",
+    "text": "1.1 MathJax - mhchem",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#r",
+    "href": "page_demo.html#r",
+    "title": "1  Demo Site",
+    "section": "1.2 R",
+    "text": "1.2 R\n1+1",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#python",
+    "href": "page_demo.html#python",
+    "title": "1  Demo Site",
+    "section": "1.3 Python",
+    "text": "1.3 Python\n\n\n\n\n\n\n\n\nFigure 1.1: Matrix\n\n\n\n\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n\n\n\n\nName\nShort Name\nSymbol\nBlock Sum\nSide Chain Sum\nTotal Sum\n\n\n\n\nSTOP\nStop\n*\n0\n0\n0\n\n\nGlycine\nGly\nG\n74\n1\n75\n\n\nAlanine\nAla\nA\n74\n15\n89\n\n\nSerine\nSer\nS\n74\n31\n105\n\n\nProline\nPro\nP\n74\n41\n115\n\n\nValine\nVal\nV\n74\n43\n117\n\n\nThreonine\nThr\nT\n74\n45\n119\n\n\nCysteine\nCys\nC\n74\n47\n121\n\n\nLeucine\nLeu\nL\n74\n57\n131\n\n\nIsoleucine\nIle\nI\n74\n57\n131\n\n\nAsparagine\nAsn\nN\n74\n58\n132\n\n\nAspartic Acid\nAsp\nD\n74\n59\n133\n\n\nLysine\nLys\nK\n74\n72\n146\n\n\nGlutamine\nGln\nQ\n74\n72\n146\n\n\nGlutamic Acid\nGlu\nE\n74\n73\n147\n\n\nMethionine/START\nMet\nM\n74\n75\n149\n\n\nHistidine\nHis\nH\n74\n81\n155\n\n\nPhenylalanine\nPhe\nF\n74\n91\n165\n\n\nArginine\nArg\nR\n74\n100\n174\n\n\nTyrosine\nTyr\nY\n74\n107\n181\n\n\nTryptophane\nTrp\nW\n74\n130\n204\n\n\n\n\n\n\n\n\n\n\n\nExpand for a list of Genetic Code variants\n\n\n\n\n\nSource\n\n\n\n\n\nId\nSpecies\n\n\n\n\nGC01\nStandard Code\n\n\nGC02\nVertebrate Mitochondrial Code\n\n\nGC03\nYeast Mitochondrial Code\n\n\nGC04\nMold, Protozoan, Coelenterate Mitochondrial Code\n\n\nGC05\nInvertebrate Mitochondrial Code\n\n\nGC06\nCiliate, Dasycladacean and Hexamita Nuclear Code\n\n\nGC07\nDeleted Kinetoplast Code\n\n\nGC09\nEchinoderm and Flatworm Mitochondrial Code\n\n\nGC10\nEuplotid Nuclear Code\n\n\nGC11\nBacterial, Archaeal and Plant Plastid Code\n\n\nGC12\nAlternative Yeast Nuclear Code\n\n\nGC13\nAscidian Mitochondrial Code\n\n\nGC14\nAlternative Flatworm Mitochondrial Code\n\n\nGC15\nBlepharisma Nuclear Code\n\n\nGC16\nChlorophycean Mitochondrial Code\n\n\nGC21\nTrematode Mitochondrial Code\n\n\nGC22\nScenedesmus Obliquus Mitochondrial Code\n\n\nGC23\nThraustochytrium Mitochondrial Code\n\n\nGC24\nPterobranchia Mitochondrial Code\n\n\nGC25\nCandidate Division SR1 and Gracilibacteria Code\n\n\nGC26\nPachysolen Tannophilus Nuclear Code\n\n\nGC27\nKaryorelict Nuclear Code\n\n\nGC28\nCondylostoma Nuclear Code\n\n\nGC29\nMesodinium Nuclear Code\n\n\nGC30\nPeritrich Nuclear Code\n\n\nGC31\nBlastocrithidia Nuclear Code\n\n\nGC32\nBalanophoraceae Plastid Code\n\n\nGC33\nCephalodiscidae Mitochondrial Code\n\n\nGC34\nEnterosoma Code\n\n\nGC35\nPeptacetobacter Code\n\n\nGC36\nAnaerococcus and Onthovivens Code\n\n\nGC37\nAbsconditabacterales Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCodon\nAmino Acids\nNucleon BL\nNucleon SC\nNucleon Total\n\n\n\n\nAA\nN, K\n74\n58\n132\n\n\nAC\nT\n74\n45\n119\n\n\nAG\nS, R\n74\n31\n105\n\n\nAT\nI, M\n74\n57\n131\n\n\nCA\nH, Q\n74\n81\n155\n\n\nCC\nP\n74\n41\n115\n\n\nCG\nR\n74\n100\n174\n\n\nCT\nL\n74\n57\n131\n\n\nGA\nD, E\n74\n59\n133\n\n\nGC\nA\n74\n15\n89\n\n\nGG\nG\n74\n1\n75\n\n\nGT\nV\n74\n43\n117\n\n\nTA\nY, *\n74\n107\n181\n\n\nTC\nS\n74\n31\n105\n\n\nTG\nC, *, W\n74\n47\n121\n\n\nTT\nF, L\n74\n91\n165\n\n\n\nCodon assignments for the Standard Code, contracted by the first two nucleotide bases.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#running-code",
+    "href": "page_demo.html#running-code",
+    "title": "1  Demo Site",
+    "section": "1.4 Running Code",
+    "text": "1.4 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#ascii-table",
+    "href": "page_demo.html#ascii-table",
+    "title": "1  Demo Site",
+    "section": "1.5 ASCII Table",
+    "text": "1.5 ASCII Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\nA\nB\nC\nD\nE\nF\n\n\n\n\n0\n⌘\n☺\n☻\n♥\n♦\n♣\n♠\n•\n◘\n○\n◙\n♂\n♀\n♪\n♫\n☼\n\n\n1\n►\n◄\n↕\n!!\n¶\n§\n▬\n↨\n↑\n↓\n→\n←\n∟\n↔︎\n▲\n▼\n\n\n2\n\n!\n”\n#\n$\n%\n&\n’\n(\n)\n*\n+\n,\n-\n.\n/\n\n\n3\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n&lt;\n=\n&gt;\n?\n\n\n4\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\n\n\n5\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\\n]\n^\n_\n\n\n6\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\n\n\n7\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n⌂\n\n\n8\nÇ\nü\né\nâ\nä\nà\nå\nç\nê\në\nè\nï\nî\nì\nÄ\nÅ\n\n\n9\nÉ\næ\nÆ\nô\nö\nò\nû\nù\nÿ\nÖ\nÜ\n¢\n£\n¥\n₧\nƒ\n\n\nA\ná\ní\nó\nú\nñ\nÑ\nª\nº\n¿\n⌐\n¬\n½\n¼\n¡\n«\n»\n\n\nB\n░\n▒\n▓\n│\n┤\n╡\n╢\n╖\n╕\n╣\n║\n╗\n╝\n╜\n╛\n┐\n\n\nC\n└\n┴\n┬\n├\n─\n┼\n╞\n╟\n╚\n╔\n╩\n╦\n╠\n═\n╬\n╧\n\n\nD\n╨\n╤\n╥\n╙\n╘\n╒\n╓\n╫\n╪\n┘\n┌\n█\n▄\n▌\n▐\n▀\n\n\nE\nα\nß\nΓ\nπ\nΣ\nσ\nµ\nτ\nΦ\nΘ\nΩ\nδ\n∞\nφ\nε\n∩\n\n\nF\n≡\n±\n≥\n≤\n⌠\n⌡\n÷\n≈\n°\n∙\n⋅\n√\nⁿ\n²\n■\n↗\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\nFigure 1.2: A flowchart.\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nrun\n\nrun\n\n\n\nintr\n\nintr\n\n\n\nrun--intr\n\n\n\n\nkernel\n\nkernel\n\n\n\nrun--kernel\n\n\n\n\nrunbl\n\nrunbl\n\n\n\nintr--runbl\n\n\n\n\nrunbl--run\n\n\n\n\nzombie\n\nzombie\n\n\n\nkernel--zombie\n\n\n\n\nsleep\n\nsleep\n\n\n\nkernel--sleep\n\n\n\n\nrunmem\n\nrunmem\n\n\n\nkernel--runmem\n\n\n\n\nsleep--runmem\n\n\n\n\nswap\n\nswap\n\n\n\nsleep--swap\n\n\n\n\nrunswap\n\nrunswap\n\n\n\nswap--runswap\n\n\n\n\nrunswap--runmem\n\n\n\n\nnew\n\nnew\n\n\n\nrunswap--new\n\n\n\n\nnew--runmem\n\n\n\n\n\nA full width figure.\n\n\n\n\n\n\n\n\nquadrantChart\n    title Reach and engagement of campaigns\n    x-axis Low Reach --&gt; High Reach\n    y-axis Low Engagement --&gt; High Engagement\n    quadrant-1 We should expand\n    quadrant-2 Need to promote\n    quadrant-3 Re-evaluate\n    quadrant-4 May be improved\n    Campaign A: [0.3, 0.6]\n    Campaign B: [0.45, 0.23]\n    Campaign C: [0.57, 0.69]\n    Campaign D: [0.78, 0.34]\n    Campaign E: [0.40, 0.34]\n    Campaign F: [0.35, 0.78]\n\n\n\n\n\n\n\\[\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n\\otimes\n\\begin{bmatrix}\nG & A \\\\\nC & T \\\\\n\\end{bmatrix}\n=\n\\begin{bmatrix}\nGG & GA & AG & AA \\\\\nGC & GT & AC & AT \\\\\nCG & CA & TG & TA \\\\\nCC & CT & TC & TT\n\\end{bmatrix}\n\\]",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "page_demo.html#d-molecule",
+    "href": "page_demo.html#d-molecule",
+    "title": "1  Demo Site",
+    "section": "1.6 2D Molecule",
+    "text": "1.6 2D Molecule\n\n\n\n\n\n\n\n\nFigure 1.3\n\n\n\n\n\nThis is a span that has the class aside which places it in the margin without a footnote number.\nAs outlined by Crick and Orgel (1973), pp. 16-18, we find this below. Also by referencing this, we end up there1, as outlined in Figure 1.2. Also refer to Figure 1.1 for more details.\n\n\n\n\nCrick, F. H. C., and L. E. Orgel. 1973. “Directed Panspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n1 Here is the footnote.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Demo Site</span>"
+    ]
+  },
+  {
+    "objectID": "part_ii_code.html",
+    "href": "part_ii_code.html",
+    "title": "The Code of Life",
+    "section": "",
+    "text": "„Life writes in code. We’re only beginning to read.”\n\n\nThe Author",
+    "crumbs": [
+      "The Code of Life"
+    ]
+  },
+  {
+    "objectID": "part_iii_signal.html",
+    "href": "part_iii_signal.html",
+    "title": "The Signal",
+    "section": "",
+    "text": "„Information is the resolution of uncertainty.”\n\n\nClaude Shannon",
+    "crumbs": [
+      "The Signal"
+    ]
+  },
+  {
+    "objectID": "part_iv_implications.html",
+    "href": "part_iv_implications.html",
+    "title": "Implications",
+    "section": "",
+    "text": "„The question is not whether a signal exists — but whether we are prepared to recognize it.”\n\n\nThe Author",
+    "crumbs": [
+      "Implications"
+    ]
+  },
+  {
+    "objectID": "part_v_questions.html",
+    "href": "part_v_questions.html",
+    "title": "Questions",
+    "section": "",
+    "text": "„Answers are easy. Asking the right question is everything.”\n\n\nThe Author",
+    "crumbs": [
+      "Questions"
+    ]
+  },
+  {
+    "objectID": "page_faq.html",
+    "href": "page_faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Are we serious?\n\n\n\n\n\nYes\n\n\n\n\n\n\n\n\n\nWho is the main contributor of this project?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nHas research in this area been conducted elsewhere?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments for a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nWhat are the strongest arguments against a signal in the Genetic Code?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n\n\n\n\n\n\nEvolution did it, didn’t it?\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "crumbs": [
+      "Questions",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "page_references.html",
+    "href": "page_references.html",
+    "title": "References",
+    "section": "",
+    "text": "Crick, F. H. C., and L. E. Orgel. 1973. “Directed\nPanspermia.” Icarus 19 (3): 341–46. https://doi.org/10.1016/0019-1035(73)90110-3.\n\n\n\nSupplementary Material",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "appendix_a1.html",
+    "href": "appendix_a1.html",
+    "title": "Appendix A — hello world",
+    "section": "",
+    "text": "B Appendix 1\nhere we go…\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>hello world</span>"
+    ]
+  },
+  {
+    "objectID": "appendix_supplements.html",
+    "href": "appendix_supplements.html",
+    "title": "Appendix B — Supplementary Material",
+    "section": "",
+    "text": "lorem ipsum…",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Supplementary Material</span>"
+    ]
+  }
+]

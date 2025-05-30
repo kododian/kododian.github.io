@@ -1,0 +1,18 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+---
+# Implications {.unnumbered .unlisted}
+
+<div class="quote-page">
+
+<blockquote class="quote">
+„The question is not whether a signal exists — but whether we are prepared to recognize it.”
+</blockquote>
+<footer class="blockquote-footer">The Author</footer>
+
+
+</div>

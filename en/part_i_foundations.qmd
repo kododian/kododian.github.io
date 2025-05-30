@@ -1,0 +1,19 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+---
+# Foundations {.unnumbered .unlisted}
+
+<br><br><br><br>
+
+<div class="quote-page">
+
+<blockquote class="quote">
+„DNA is like a computer program but far, far more advanced than any software ever created.”
+</blockquote>
+<footer class="blockquote-footer">Bill Gates, The Road Ahead</cite></footer>
+
+</div>
