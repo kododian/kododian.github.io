@@ -2,10 +2,14 @@
 author: Christoph Kovacs
 ---
 
-# Welcome {.unnumbered}
+# Welcome 👋 {.unnumbered}
 
-::: {.callout-note}
-## Purpose & Goal
+::: {.callout-note appearance="minimal"}
+Twelve years ago, two researchers proposed a provocative idea: that the genetic code may carry an embedded signal of non-evolutionary origin.
 
-The Kodonian Project seeks to demonstrate that the Universal Genetic Code contains an embedded signal—an intentional, structured  message—suggesting a deeper informational or even extraterrestrial origin behind the blueprint of life on Earth.
+Their work sparked intrigue — and resistance.
+
+This book revisits the findings of V.&nbsp;sh'Cherbak and M.&nbsp;Makukov with a fresh perspective and a new approach. As a seasoned software engineer and independent researcher in data science and bioinformatics, I present compelling new evidence — evidence that fills a critical gap in their theory and, I argue, settles the case for an embedded signal in the genetic code once and for all.
+
+Whether you’re a scientist, skeptic, or simply curious — I invite you to examine the signal for yourself.
 :::

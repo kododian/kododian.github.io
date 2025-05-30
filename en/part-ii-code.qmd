@@ -1,11 +1,10 @@
 ---
 format:
   html:
-    toc: false
+    title: "Part II: The Code of Life"
     number-sections: false
     page-layout: full
 ---
-# The Code of Life {.unnumbered .unlisted}
 
 <div class="quote-page">
 

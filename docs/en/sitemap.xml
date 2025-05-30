@@ -2,50 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kodonian.github.io/index.html</loc>
-    <lastmod>2025-05-29T20:25:45.837Z</lastmod>
+    <lastmod>2025-05-30T08:21:59.880Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/page_preface.html</loc>
-    <lastmod>2025-05-29T17:28:09.804Z</lastmod>
+    <loc>https://kodonian.github.io/page-preface.html</loc>
+    <lastmod>2025-05-30T08:36:57.283Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/part_i_foundations.html</loc>
-    <lastmod>2025-05-30T05:55:39.704Z</lastmod>
+    <loc>https://kodonian.github.io/part-i-foundations.html</loc>
+    <lastmod>2025-05-30T08:41:11.290Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/page_demo.html</loc>
-    <lastmod>2025-05-30T05:20:54.777Z</lastmod>
+    <loc>https://kodonian.github.io/page-i-introduction.html</loc>
+    <lastmod>2025-05-30T08:33:34.008Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/part_ii_code.html</loc>
-    <lastmod>2025-05-30T05:56:07.463Z</lastmod>
+    <loc>https://kodonian.github.io/page-i-why.html</loc>
+    <lastmod>2025-05-30T08:29:44.418Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/part_iii_signal.html</loc>
-    <lastmod>2025-05-30T05:56:12.074Z</lastmod>
+    <loc>https://kodonian.github.io/page-i-information.html</loc>
+    <lastmod>2025-05-30T08:30:37.410Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/part_iv_implications.html</loc>
-    <lastmod>2025-05-30T05:56:22.639Z</lastmod>
+    <loc>https://kodonian.github.io/page-i-ascii.html</loc>
+    <lastmod>2025-05-30T09:02:48.665Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/part_v_questions.html</loc>
-    <lastmod>2025-05-30T05:56:38.312Z</lastmod>
+    <loc>https://kodonian.github.io/page-i-embedding.html</loc>
+    <lastmod>2025-05-30T09:04:20.157Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/page_faq.html</loc>
+    <loc>https://kodonian.github.io/part-ii-code.html</loc>
+    <lastmod>2025-05-30T08:41:43.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/part-iii-signal.html</loc>
+    <lastmod>2025-05-30T08:41:56.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/part-iv-implications.html</loc>
+    <lastmod>2025-05-30T08:42:03.285Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/part-v-questions.html</loc>
+    <lastmod>2025-05-30T08:42:12.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-faq.html</loc>
     <lastmod>2025-05-29T07:59:28.670Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/page_references.html</loc>
+    <loc>https://kodonian.github.io/page-references.html</loc>
     <lastmod>2025-05-29T18:00:34.434Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/appendix_a1.html</loc>
+    <loc>https://kodonian.github.io/page-tng-quote.html</loc>
+    <lastmod>2025-05-30T08:26:24.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kodonian.github.io/page-x-a1.html</loc>
     <lastmod>2025-05-29T09:21:00.780Z</lastmod>
   </url>
   <url>
-    <loc>https://kodonian.github.io/appendix_supplements.html</loc>
+    <loc>https://kodonian.github.io/page-x-supplements.html</loc>
     <lastmod>2025-05-29T18:01:52.258Z</lastmod>
   </url>
 </urlset>

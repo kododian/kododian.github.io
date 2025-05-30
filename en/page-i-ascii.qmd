@@ -1,0 +1,3 @@
+## A Human-Made Signal System
+
+- What is ASCII and why it's a canonical example  

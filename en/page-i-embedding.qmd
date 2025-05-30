@@ -1,0 +1,8 @@
+## How to Embed a Signal
+
+- Embed a signal in a mapping table (in general)
+- Embed a signal in ASCII
+- Embed a signal in the Genetic Code Table
+- Multipurpose encoding and symbolic layers  
+- Examples of embedded patterns and redundancies  
+- Lessons for biological code interpretation  
