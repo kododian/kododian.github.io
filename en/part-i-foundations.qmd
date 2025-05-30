@@ -8,11 +8,9 @@ format:
 
 <br><br><br><br>
 
-<div class="quote-page">
-
-<blockquote class="quote">
+::: quote-page
+<blockquote class="quote-large">
 „DNA is like a computer program but far, far more advanced than any software ever created.”
 </blockquote>
 <footer class="blockquote-footer">Bill Gates, The Road Ahead</cite></footer>
-
-</div>
+:::

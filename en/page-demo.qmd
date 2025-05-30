@@ -12,8 +12,6 @@ format:
           packages: ["base", "mhchem"]
 # required to render PNG/SVG properly when R code is there 
 engine: jupyter 
-nocite: |
-  @*
 output-dir: docs # required
 ---
 

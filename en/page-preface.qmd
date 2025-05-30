@@ -13,9 +13,11 @@ Later that year, Vladimir sh'Cherbak sadly passed away. His co-author and former
 But **were they right**?
 
 ::: {.callout-note appearance="minimal"}
+::: callout-normal
 The aim of this book is to demonstrate, beyond any reasonable doubt, that sh'Cherbak and Makukov were fundamentally correct in their theory. However, I believe they overlooked crucial pieces of the puzzle that would have made their case easier to explain and defend. It took me twelve years of working in information and data science, along with focused training in mathematics, bioinformatics, and genetic data analysis, to uncover those missing pieces.
 :::
+:::
 
-::: comment
-To the two researchers who led me down this rabbit hole <br>— and made sure I didn’t come back the same.<br><br>Christoph Kovacs, May 2025
+::: italic-right
+To the two researchers who led me down this rabbit hole — and made sure I didn’t come back the same.<br><br>Christoph Kovacs, May 2025
 :::

@@ -6,11 +6,9 @@ format:
     page-layout: full
 ---
 
-<div class="quote-page">
-
-<blockquote class="quote">
+::: quote-page
+<blockquote class="quote-large">
 „Information is the resolution of uncertainty.”
 </blockquote>
 <footer class="blockquote-footer">Claude Shannon</footer>
-
-</div>
+:::

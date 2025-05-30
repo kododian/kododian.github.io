@@ -1,0 +1,67 @@
+/*-- scss:rules --*/
+
+$secondary-font: "Noto Serif", serif;
+$tertiary-font: "Outfit", sans-serif;
+
+.quarto-title-block + .quarto-title-heading + p {
+  margin-top: 1.5em;
+}
+
+.quote-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  color: #333;
+  margin-top: 5rem;
+}
+
+/* quotes */
+@mixin quote-style {
+  font-family: $secondary-font;
+  max-width: 700px;
+  font-weight: 500;
+  font-style: italic;
+}
+.quote-large {
+  @include quote-style;
+  font-size: 1.5rem;
+}
+.quote-medium {
+  @include quote-style;
+  font-size: 1.1rem;
+}
+.quote-small {
+  @include quote-style;
+  font-size: 1rem;
+}
+
+@mixin italic-text {
+  font-family: $secondary-font;
+  font-style: italic;
+}
+
+/* italic text */
+.italic-right {
+  @include italic-text;
+  max-width: 450px;
+  float: right;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.callout-normal {
+  font-size: 1rem;
+}
+
+/* Bold part titles in sidebar */
+.sidebar-item .sidebar-item-container .menu-text {
+  font-weight: bold;
+}
+
+/* Keep chapters normal */
+.sidebar-item .depth1 .sidebar-item-container .menu-text {
+  font-weight: normal;
+}
