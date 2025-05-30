@@ -75,6 +75,8 @@ format:
     code-link: true
     number-sections: true
     number-depth: 2
+    include-before-body:
+      - ../shared/includes/fonts.html
   # pdf:
   #   subject: "" # TBD
   #   keywords: "" # TBD

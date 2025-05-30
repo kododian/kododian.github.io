@@ -15,7 +15,7 @@
 }
 
 .quote {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", serif;;
   font-size: 1.5rem;
   font-weight: 500;
   font-style: italic;
@@ -24,6 +24,6 @@
 .comment {
   padding-top: 16px;
   padding-bottom: 16px;
-  font-family: "Noto Serif";
+  font-family: "Outfit", serif;;
   font-style: italic;
 }
