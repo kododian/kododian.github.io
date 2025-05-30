@@ -1,0 +1,16 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+---
+# Questions {.unnumbered .unlisted}
+
+<div class="quote-page">
+
+<blockquote class="quote">
+„Answers are easy. Asking the right question is everything.”
+</blockquote>
+<footer class="blockquote-footer">The Author</footer>
+</div>

@@ -1,0 +1,17 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+---
+# The Signal {.unnumbered .unlisted}
+
+<div class="quote-page">
+
+<blockquote class="quote">
+„Information is the resolution of uncertainty.”
+</blockquote>
+<footer class="blockquote-footer">Claude Shannon</footer>
+
+</div>

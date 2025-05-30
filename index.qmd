@@ -1,7 +1,0 @@
-# Welcome {.unnumbered}
-
-::: {.callout-note}
-## Purpose & Goal
-
-The Kodonian Project seeks to demonstrate that the Universal Genetic Code contains an embedded signal—an intentional, structured message—suggesting a deeper informational or even extraterrestrial origin behind the blueprint of life on Earth.
-:::

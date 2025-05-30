@@ -1,0 +1,14 @@
+---
+citeproc: true
+nocite: |
+  @*
+link-citations: true
+citation-location: document
+---
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+### Supplementary Material

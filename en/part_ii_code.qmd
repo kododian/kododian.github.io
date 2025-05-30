@@ -1,0 +1,17 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+---
+# The Code of Life {.unnumbered .unlisted}
+
+<div class="quote-page">
+
+<blockquote class="quote">
+„Life writes in code. We’re only beginning to read.”
+</blockquote>
+<footer class="blockquote-footer">The Author</footer>
+
+</div>
