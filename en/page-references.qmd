@@ -1,5 +1,4 @@
 ---
-citeproc: true
 nocite: |
   @*
 link-citations: true

@@ -6,12 +6,9 @@ format:
     page-layout: full
 ---
 
-<div class="quote-page">
-
-<blockquote class="quote">
+::: quote-page
+<blockquote class="quote-large">
 „The question is not whether a signal exists — but whether we are prepared to recognize it.”
 </blockquote>
 <footer class="blockquote-footer">The Author</footer>
-
-
-</div>
+:::

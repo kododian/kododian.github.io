@@ -1,22 +1,20 @@
 project:
   type: book
   output-dir: ../docs/en
-  resources:
-    - styles.css
 
 lang: en
 
 book:
   title: Signal in the Code
   subtitle: A Message Detected in Life's Blueprint
-  cover-image: assets/cover-image.jpg
+  #cover-image: assets/cover-image.jpg
   author: Christoph Kovacs
   date: last-modified
   date-format: "MMM D, YYYY"
   site-url: https://kodonian.github.io/
-  repo-url: https://github.com/kododian/kododian.github.io
-  repo-branch: master
-  repo-actions: [issue]
+  #repo-url: https://github.com/kododian/kododian.github.io
+  #repo-branch: master
+  #repo-actions: [issue]
   sharing: [twitter, facebook, linkedin]
   search: true
   # downloads: [pdf]
@@ -24,6 +22,7 @@ book:
   page-footer: 
     left: "© 2025, Christoph Kovacs"
     #right: "Released May 25, 2025"
+  
   chapters:
     - index.qmd
     #- page-colophon.qmd
@@ -42,14 +41,17 @@ book:
     - part: part-v-questions.qmd
       chapters:
         - page-faq.qmd
+    - page-epilogue.qmd
     - page-references.qmd
-    - page-tng-quote.qmd
   appendices:
     - page-x-a1.qmd
     - page-x-supplements.qmd
+  
+  #sidebar:
+    #logo: assets/cover-image.jpg
+
 
 bibliography: ../shared/refs/references.bib
-
 link-citations: true
 citations-hover: true
 reference-location: margin
@@ -67,8 +69,8 @@ format:
   html:
     theme:
       - cosmo
+      - ../shared/styles.scss
     #mainfont: "STIX Two Text"
-    css: styles.css
     toc: true
     #grid:
     #  margin-width: 350px
@@ -77,6 +79,8 @@ format:
     number-depth: 2
     include-before-body:
       - ../shared/includes/fonts.html
+
+
   # pdf:
   #   subject: "" # TBD
   #   keywords: "" # TBD

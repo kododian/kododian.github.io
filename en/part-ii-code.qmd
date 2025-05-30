@@ -6,11 +6,9 @@ format:
     page-layout: full
 ---
 
-<div class="quote-page">
-
-<blockquote class="quote">
+::: quote-page
+<blockquote class="quote-large">
 „Life writes in code. We’re only beginning to read.”
 </blockquote>
 <footer class="blockquote-footer">The Author</footer>
-
-</div>
+:::

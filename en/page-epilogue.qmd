@@ -1,0 +1,15 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    page-layout: full
+---
+# Epilogue {.unnumbered .unlisted}
+
+::: quote-medium
+<blockquote>
+"[...] We left our world, explored the stars, and found none like ourselves. Our civilisation thrived for ages, but what is the life of one race, compared to the vast stretches of cosmic time? We knew that one day we would be gone, that nothing of us would survive. So, we left you. Our scientists seeded the primordial oceans of many worlds, where life was in its infancy. The seed codes directed your evolution toward a physical form resembling ours. This body you see before you, which is, of course, shaped as yours is shaped, for you are the end result. The seed codes also contained this message, which we scattered in fragments on many different worlds. [...] There is something of us in each of you, and so, something of you in each other. Remember us."
+</blockquote>
+<footer class="blockquote-footer">Humanoid in "The Chase", Star Trek: The Next Generation</footer>
+:::

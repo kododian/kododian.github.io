@@ -6,10 +6,10 @@ format:
     page-layout: full
 ---
 
-<div class="quote-page">
-
-<blockquote class="quote">
-„Answers are easy. Asking the right question is everything.”
+::: quote-page
+<blockquote class="quote-large">
+„Nothing matters more than the right questions.”
 </blockquote>
 <footer class="blockquote-footer">The Author</footer>
 </div>
+:::
