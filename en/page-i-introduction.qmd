@@ -1,4 +1,6 @@
 # Introduction
 - Scope and motivation of the book  
+- explain the different parts of the book
 - A brief history of the genetic code and information theory  
 - Why now? Modern tools and renewed interest in code-as-signal 
+- do this?

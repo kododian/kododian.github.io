@@ -19,5 +19,5 @@ The aim of this book is to demonstrate, beyond any reasonable doubt, that sh'Che
 :::
 
 ::: italic-right
-To the two researchers who led me down this rabbit hole — and made sure I didn’t come back the same.<br><br>Christoph Kovacs, May 2025
+To the two researchers who led me down this rabbit hole — and made sure I didn’t come back the same.<br><br>Chris Kovacs, May 2025
 :::

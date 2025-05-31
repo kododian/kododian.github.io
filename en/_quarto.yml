@@ -1,6 +1,10 @@
 project:
   type: book
   output-dir: ../docs/en
+  preview:
+    watch-inputs: true   # watches .qmd, .css, .bib, etc.
+    navigate: true       # sync navigation in browser
+    browser: true        # open browser automatically
 
 lang: en
 
